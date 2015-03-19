@@ -20,12 +20,20 @@
   font-size: 1.3rem; }
 
 .rsvp-cta p {
-  padding: 1rem;
+  padding: 1.4rem 0 0 0;
   border-bottom: dotted 2px #f1f0f0;
   color: #5c5c5c; }
 
 .rsvp-btn {
   background: #1476bb; }
+
+.name img {
+  margin: 1.5rem 0 1rem 0; }
+
+.about {
+  padding: 0 1.5rem;
+  font-weight: 300;
+  color: #757575; }
 
 #nav li {
   font-size: 0.8rem;
@@ -33,5 +41,21 @@
   font-weight: 600; }
   #nav li a {
     color: #000000; }
+
+.our-bridal-party-heading h5 {
+  border-bottom: dotted 2px #f1f0f0;
+  font-weight: bold;
+  border-top: dotted 2px #f1f0f0;
+  margin: 2rem 0;
+  padding: 1rem; }
+
+.our-bridal-party h3 {
+  font-size: 1.1em;
+  font-weight: bold; }
+.our-bridal-party h6 {
+  color: #1476bb; }
+.our-bridal-party p {
+  font-weight: 300;
+  color: #757575; }
 
 /*# sourceMappingURL=main.css.map */
