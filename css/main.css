@@ -1,0 +1,53 @@
+/* line 1, ../sass/main.sass */
+.hero-bg {
+  background: url("../img/hero-bg.png");
+  height: 500px;
+  padding-top: 5rem;
+}
+
+/* line 6, ../sass/main.sass */
+.header-container {
+  background: url("../img/header-bg.png") repeat-x;
+  height: 100px;
+}
+
+/* line 12, ../sass/main.sass */
+.logo-container img {
+  margin: -3.3rem 0 2rem 0;
+}
+
+/* line 16, ../sass/main.sass */
+.you-are-invited h1 {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 3rem;
+}
+/* line 20, ../sass/main.sass */
+.you-are-invited p {
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 1.3rem;
+}
+
+/* line 26, ../sass/main.sass */
+.rsvp-cta p {
+  padding: 1rem;
+  border-bottom: dotted 2px #f1f0f0;
+  color: #5c5c5c;
+}
+
+/* line 31, ../sass/main.sass */
+.rsvp-btn {
+  background: #1476bb;
+}
+
+/* line 37, ../sass/main.sass */
+#nav li {
+  font-size: 0.8rem;
+  margin-top: 1.5rem;
+  font-weight: 600;
+}
+/* line 41, ../sass/main.sass */
+#nav li a {
+  color: #000000;
+}
