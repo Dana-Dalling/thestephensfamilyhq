@@ -15,10 +15,9 @@
             <div class="row" id="nav">
                 <div class="small-12 medium-4 large-4 columns">
                     <div class="row">
-                        <ul class="small-block-grid-3">
+                        <ul class="small-block-grid-3 medium-block-grid-3 large-block-grid-3">
                             <li><a>RSVP</a></li>
                             <li><a>Venue</a></li>
-                            <li><a>Suggest Songs</a></li>
                          </ul>
                     </div>
                 </div>
@@ -27,8 +26,8 @@
                 </div>
                 <div class="small-12 medium-4 large-4 columns">
                     <ul class="small-block-grid-2">
+                        <li><a data-reveal-id="myModal">Suggest Songs</a></li>
                         <li><a>Guest Book</a></li>
-                        <li><a>Wedding Album</a></li>
                     </ul>
                 </div>
             </div>
@@ -36,20 +35,52 @@
             <div class="row">
                 <div class="small-11 large-centered columns text-center you-are-invited">
                     <h1>We’re getting married & You’re invited!</h1>
-                    <p>Please join us for our wedding celebrations at Straun Castle Garden,<br>
+                    <p>Please join us for our wedding celebrations at Struan Castle Garden,<br>
                         Stony Hill, St. Andrew. Ceremony begins @ 5pm.
                     </p>
                 </div>
             </div>
         </div>
     </div>
-    <div class="row">
-       <div class="small-12 large-centered columns text-center rsvp-cta">
-           <p>We are so glad that you are coming! Please RSVP by June 14, 2015
-               <a href="#" class="button tiny radius rsvp-btn">RSVP now</a>
-           </p>
-       </div>
+    <div class="count-down-container" ">
+        <div class="row">
+            <div class="small-12 medium-8 large-8 columns">
+                <ul class="dana-fabion-wedding-countdown small-block-grid-2 medium-block-grid-4 large-block-grid-4"
+                    id="1435467600">
+                    <li>
+                        <span class="timer-circle">
+                            <span class="time-left--days">0</span>
+                            <span>Days</span>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="timer-circle">
+                            <span class="time-left--hours">0</span>
+                            <span>Hours</span>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="timer-circle">
+                            <span class="time-left--minutes">0</span>
+                            <span>Minutes</span>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="timer-circle">
+                            <span class="time-left--seconds">0</span>
+                            <span>Seconds</span>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="small-12 medium-4 large-4 columns">
+                <h2 class="until-id-txt">Until we say " we do "!</h2>
+            </div>
+
+        </div>
     </div>
+
     <div class="row">
         <div class="small-12 medium-6 large-6 columns text-center the-couple">
 
@@ -98,7 +129,7 @@
         </div>
     </div>
     <div class="row">
-        <div class="small-12 medium-12 large-12 columns text-center our-bridal-party-heading">
+        <div class="small-12 medium-12 large-12 columns text-center main-heading">
             <h5>Our Bridal Party</h5>
         </div>
     </div>
@@ -108,36 +139,86 @@
                 <img src="img/latoya.png">
                 <h3>Latoya Dalling</h3>
                 <h6>Bridesmaid</h6>
-                <p> Sister of the Bride luctus
-                    pulvinar, hendrerit id, lorem. Maecenas nec
-                </p>
+                <p> Sister of the Bride</p>
             </li>
            <li>
                <img src="img/iana.png">
                <h3>Iana Cross</h3>
                <h6>Bridesmaid</h6>
-               <p> Sister of the Bride luctus
-                   pulvinar, hendrerit id, lorem. Maecenas nec
-               </p>
+               <p> Sister of the Bride</p>
            </li>
             <li>
                 <img src="img/kwami.png">
                 <h3>Kwami Roberts</h3>
                 <h6>Best Man</h6>
-                <p> Friend of the Groom,
-                    pulvinar, hendrerit id, lorem. Maecenas nec
-                </p>
+                <p> Friend of the Groom</p>
             </li>
             <li>
                 <img src="img/oliver.png">
                 <h3>Oliver Stephens</h3>
                 <h6>Groomsman</h6>
-                <p> Brother of the Groom
-                    pulvinar, hendrerit id, lorem. Maecenas nec
-                </p>
+                <p> Brother of the Groom</p>
             </li>
         </ul>
     </div>
+    <div class="row">
+        <div class="row">
+            <div class="small-12 medium-12 large-12 columns text-center main-heading">
+                <h5>Are you attending?</h5>
+                <p>Please RSVP by May 31st, 2015.</p>
+            </div>
+        </div>
+            <div class="small-12 small-centered medium-6 medium-centered large-6 large-centered columns" id="rsvp">
+                <form>
+                    <label>
+                        <div>Please enter your RSVP Code</div>
+                        <input type="text" placeholder="Code can be found on your RSVP card :)" class="form-fields" />
+                    </label>
+                    <label>
+                        <div>Which events will you be attending</div>
+                        <select class="form-fields">
+                            <option value="">Not Attending</option>
+                            <option value="">All events</option>
+                            <option value="">Ceremony</option>
+                            <option value="">Reception</option>
+                            <option value="">After Party</option>
+                        </select>
+                    </label>
+                    <div>
+                        <a href="#">
+                            <img src="img/rsvp-btn.png" class="mb2">
+                        </a>
+                    </div>
+                </form>
+                <div class="dancing-shoes-heading text-center">
+                    <h2>Bring Your <br/>Dancing Shoes!</h2>
+                </div>
+            </div>
+    </div>
+    <div class="row">
+        <div class="small-12 medium-12 large-12 columns text-center main-heading">
+            <h5>The Venue<br/>
+            Struan Castle Garden
+            </h5>
+        </div>
+    </div>
+    <div class="row">
+        <ul class="small-block-grid-4">
+            <li>
+                <img src="img/straun1.jpg">
+            </li>
+            <li>
+                <img src="img/straun2.JPG">
+            </li>
+            <li>
+                <img src="img/straun3.jpg">
+            </li>
+            <li>
+                <img src="img/straun4.jpg">
+            </li>
+        </ul>
+    </div>
+    <div id="map-canvas"></div>
     <div class="footer">
         <div class="row">
             <div class="small-12 small-centered medium-6 medium-centered large-6 large-centered columns">
@@ -154,10 +235,61 @@
             </div>
         </div>
     </div>
+
+    <!-- Modal for Suggest Songs-->
+        <div id="myModal" class="reveal-modal suggest-song-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+            <h2 id="modalTitle">Suggest Wedding</br> Party Song</h2>
+            <p class="lead">We cant wait to hear what you suggest!</p>
+            <div class="small-12 small-centered medium-9 medium-centered large-9 large-centered columns">
+                <form>
+                    <label class="boldy">Your Name
+                        <input type="text" placeholder="eg. John Brown" />
+                    </label>
+                    <label>Song Title
+                        <input type="text" placeholder="eg. Marry You" />
+                    </label>
+                    <label>Artist/Band
+                        <input type="text" placeholder="eg. Bruno Mars" />
+                    </label>
+                    <a href="#" class="button radius expand rb-btn">Suggest Song</a>
+                </form>
+
+            </div>
+            <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+        </div>
+
+
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+
     <script>
       $(document).foundation();
+      function initialize() {
+          var mapCanvas = document.getElementById('map-canvas');
+          var mapOptions = {
+              center: new google.maps.LatLng(18.0844286, -76.7943495),
+              zoom: 15,
+              mapTypeId: google.maps.MapTypeId.ROADMAP,
+              scrollwheel: false
+          }
+          var map = new google.maps.Map(mapCanvas, mapOptions);
+          var marker = new google.maps.Marker({
+              position: mapOptions.center,
+              map: map,
+              title: 'Struan Castle Garden'
+          });
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+
+    <script type="text/javascript">
+        $('#getting-started').countdown('2015/01/01', function(event) {
+            $(this).html(event.strftime('%w weeks %d days %H:%M:%S'));
+        });
     </script>
   </body>
 </html>

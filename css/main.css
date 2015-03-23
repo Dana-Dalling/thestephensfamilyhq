@@ -1,75 +1,76 @@
 @import url(http://fonts.googleapis.com/css?family=Poiret+One|Lily+Script+One|Lobster|Great+Vibes|Pacifico|Dancing+Script:400,700|Lobster+Two:400,700|Satisfy|Rochester|Sacramento);
 /* line 2, ../sass/main.sass */
 .hero-bg {
-  background: url("../img/hero-bg.png");
-  height: 500px;
+  background-image: url("../img/hero-bg.png");
+  min-height: 570px;
   padding-top: 5rem;
+  background-size: cover;
 }
 
-/* line 7, ../sass/main.sass */
+/* line 8, ../sass/main.sass */
 .header-container {
   background: url("../img/header-bg.png") repeat-x;
   height: 100px;
 }
 
-/* line 13, ../sass/main.sass */
+/* line 14, ../sass/main.sass */
 .logo-container img {
   margin: -3.3rem 0 2rem 0;
 }
 
-/* line 17, ../sass/main.sass */
+/* line 18, ../sass/main.sass */
 .you-are-invited h1 {
   color: #ffffff;
   font-weight: bold;
   font-size: 3rem;
 }
-/* line 21, ../sass/main.sass */
+/* line 22, ../sass/main.sass */
 .you-are-invited p {
   color: #ffffff;
   font-weight: 300;
   font-size: 1.3rem;
 }
 
-/* line 27, ../sass/main.sass */
+/* line 28, ../sass/main.sass */
 .rsvp-cta p {
   padding: 1.4rem 0 0 0;
   border-bottom: dotted 2px #f1f0f0;
   color: #5c5c5c;
 }
 
-/* line 32, ../sass/main.sass */
+/* line 33, ../sass/main.sass */
 .rsvp-btn {
   background: #3e51a3;
 }
 
-/* line 35, ../sass/main.sass */
+/* line 36, ../sass/main.sass */
 .name {
   font-family: "Great Vibes", cursive;
-  font-size: 2.8rem;
+  font-size: 2rem;
   margin: 1.5rem 0 1rem 0;
   color: #3e51a3;
 }
 
-/* line 41, ../sass/main.sass */
+/* line 42, ../sass/main.sass */
 .about {
   padding: 0 1.5rem;
   font-weight: 300;
   color: #757575;
 }
 
-/* line 47, ../sass/main.sass */
+/* line 48, ../sass/main.sass */
 #nav li {
   font-size: 0.8rem;
   margin-top: 1.5rem;
   font-weight: 600;
 }
-/* line 51, ../sass/main.sass */
+/* line 52, ../sass/main.sass */
 #nav li a {
   color: #000000;
 }
 
-/* line 55, ../sass/main.sass */
-.our-bridal-party-heading h5 {
+/* line 56, ../sass/main.sass */
+.main-heading h5 {
   border-bottom: dotted 2px #f1f0f0;
   font-weight: bold;
   border-top: dotted 2px #f1f0f0;
@@ -78,60 +79,181 @@
   font-size: 2rem;
   font-family: "Lobster", cursive;
 }
+/* line 64, ../sass/main.sass */
+.main-heading p {
+  font-weight: bold;
+}
 
-/* line 65, ../sass/main.sass */
+/* line 68, ../sass/main.sass */
 .our-bridal-party {
   margin-bottom: 3rem;
 }
-/* line 68, ../sass/main.sass */
+/* line 70, ../sass/main.sass */
 .our-bridal-party h3 {
   font-size: 1.5em;
   font-weight: bold;
   font-family: "Rochester", cursive;
 }
-/* line 72, ../sass/main.sass */
+/* line 74, ../sass/main.sass */
 .our-bridal-party h6 {
   color: #3e51a3;
   font-weight: 500;
 }
-/* line 75, ../sass/main.sass */
+/* line 77, ../sass/main.sass */
 .our-bridal-party p {
   font-weight: 300;
   color: #757575;
   font-size: 0.85rem;
 }
 
-/* line 81, ../sass/main.sass */
+/* line 83, ../sass/main.sass */
 .the-couple h4 {
   font-family: "Lobster", cursive;
 }
-/* line 83, ../sass/main.sass */
+/* line 85, ../sass/main.sass */
 .the-couple i {
   color: #8dc0e4 !important;
   font-size: 0.8rem;
   vertical-align: middle;
 }
-/* line 87, ../sass/main.sass */
+/* line 89, ../sass/main.sass */
 .the-couple img {
   margin-top: 1.5rem;
 }
 
-/* line 90, ../sass/main.sass */
+/* line 92, ../sass/main.sass */
 .footer {
   background: black;
   padding: 1.3rem 0 0 0;
 }
-/* line 93, ../sass/main.sass */
+/* line 95, ../sass/main.sass */
 .footer p {
   font-size: 0.8rem;
   color: #9B9B9B;
 }
-/* line 96, ../sass/main.sass */
+/* line 98, ../sass/main.sass */
 .footer i {
   font-size: 0.3rem;
 }
 
-/* line 99, ../sass/main.sass */
+/* line 101, ../sass/main.sass */
 .our-story-img {
   margin: 0 0 2.5rem 0;
+}
+
+/* line 104, ../sass/main.sass */
+.count-down-container {
+  background: #3e51a3;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+/* line 108, ../sass/main.sass */
+.count-down-container h2 {
+  color: #fff;
+  margin-top: 1.8rem;
+  text-transform: capitalize;
+}
+
+/* line 113, ../sass/main.sass */
+#rsvp {
+  background: #3e51a3;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+/* line 117, ../sass/main.sass */
+#rsvp label {
+  font-weight: 300;
+  color: #ffffff;
+}
+
+/* line 121, ../sass/main.sass */
+.rb-btn {
+  background: #3e51a3 !important;
+  color: white !important;
+  border-radius: 3px !important;
+  border: solid 1px silver;
+}
+
+/* line 127, ../sass/main.sass */
+.form-fields {
+  border-radius: 3px !important;
+  padding: 1rem !important;
+  margin-top: 0.5rem !important;
+  min-height: 4rem;
+}
+
+/* line 133, ../sass/main.sass */
+.dancing-shoes-heading {
+  border-top: dotted 2px #7889d2;
+}
+/* line 135, ../sass/main.sass */
+.dancing-shoes-heading h2 {
+  font-family: "Rochester", cursive;
+  color: #ffffff;
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+
+/* line 141, ../sass/main.sass */
+.mb2 {
+  margin-bottom: 2rem;
+}
+
+/* line 144, ../sass/main.sass */
+#map-canvas {
+  width: 100%;
+  height: 400px;
+}
+/* line 147, ../sass/main.sass */
+#map-canvas img {
+  max-width: none;
+}
+
+/* line 150, ../sass/main.sass */
+.timer-circle {
+  display: block;
+  height: 7em;
+  border: 1px solid #fff;
+  width: 7em;
+  border-radius: 50%;
+  color: #fff;
+}
+/* line 157, ../sass/main.sass */
+.timer-circle span {
+  display: block;
+  text-align: center;
+}
+/* line 160, ../sass/main.sass */
+.timer-circle span:first-child {
+  padding-top: 2em;
+}
+
+/* line 163, ../sass/main.sass */
+.until-id-txt {
+  font-family: "Rochester", cursive;
+  font-size: 1.8rem;
+}
+
+/* line 168, ../sass/main.sass */
+#modalTitle {
+  font-family: "Rochester", cursive;
+  color: #3e51a3;
+  font-size: 3rem;
+  text-align: center;
+}
+
+/* line 174, ../sass/main.sass */
+.reveal-modal {
+  max-width: 32.5rem;
+}
+
+/* line 177, ../sass/main.sass */
+.lead {
+  text-align: center;
+  font-size: 0.8rem !important;
+}
+
+/* line 182, ../sass/main.sass */
+.boldy {
+  font-weight: bold;
 }
