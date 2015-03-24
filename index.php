@@ -169,23 +169,24 @@
             </div>
         </div>
             <div class="small-12 small-centered medium-6 medium-centered large-6 large-centered columns" id="rsvp">
-                <form>
+                <div id="thank-you-note"></div>
+                <form id="rsvp-form" action="inc/validate_send_rsvp.php" method="POST" class="m-async-form">
                     <label>
-                        <div>Please enter your RSVP Code</div>
-                        <input type="text" placeholder="Code can be found on your RSVP card :)" class="form-fields" />
+                        <div id="rsvp-response-msg">Please enter your RSVP Code</div>
+                        <input type="text" id="rsvp_code" name="rsvp_code" placeholder="Code can be found on your RSVP card :)" class="form-fields" />
                     </label>
                     <label>
                         <div>Which events will you be attending</div>
-                        <select class="form-fields">
-                            <option value="">Not Attending</option>
-                            <option value="">All events</option>
-                            <option value="">Ceremony</option>
-                            <option value="">Reception</option>
-                            <option value="">After Party</option>
+                        <select name="rsvped_for" class="form-fields">
+                            <option value="all">All events</option>
+                            <option value="not-attending">Not Attending</option>
+                            <option value="ceremony">Ceremony</option>
+                            <option value="reception">Reception</option>
+                            <option value="after-party">After Party</option>
                         </select>
                     </label>
                     <div>
-                        <a href="#">
+                        <a href="#send-rsvp" id="submit-rsvp-form">
                             <img src="img/rsvp-btn.png" class="mb2">
                         </a>
                     </div>
