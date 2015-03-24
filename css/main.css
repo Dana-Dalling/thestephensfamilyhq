@@ -9,8 +9,8 @@
 
 /* line 8, ../sass/main.sass */
 .header-container {
-  background: url("../img/header-bg.png") repeat-x;
-  height: 100px;
+  background: #ffffff;
+  max-height: 70px;
 }
 
 /* line 14, ../sass/main.sass */
@@ -256,4 +256,15 @@
 /* line 182, ../sass/main.sass */
 .boldy {
   font-weight: bold;
+}
+
+/* line 185, ../sass/main.sass */
+.highlight_field {
+  border: 1px solid #E015D0;
+  background: #E4CEE6;
+}
+
+/* line 190, ../sass/main.sass */
+#rsvp-response-msg.error {
+  color: #F0A8EA;
 }
