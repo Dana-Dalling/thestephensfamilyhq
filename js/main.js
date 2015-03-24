@@ -73,7 +73,7 @@ $( document ).ready(function() {
                     //show thank you note
                     $('#thank-you-note').html('<h3>Thank You So Much!</h3>')
                     //reset the form
-                    rsvp_form.reset();
+                    rsvp_form[0].reset();
                 }
                 //close any modal that was up
                 //$('.close-reveal-modal').trigger('click');
