@@ -191,7 +191,7 @@
                     </div>
                 </form>
                 <div class="dancing-shoes-heading text-center">
-                    <h2>Bring Your <br/>Dancing Shoes!</h2>
+                    <h2>Bring Your Dancing Shoes!</h2>
                 </div>
             </div>
     </div>
