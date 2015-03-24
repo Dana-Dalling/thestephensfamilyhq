@@ -16,8 +16,8 @@
                 <div class="small-12 medium-4 large-4 columns">
                     <div class="row">
                         <ul class="small-block-grid-3 medium-block-grid-3 large-block-grid-3">
-                            <li><a>RSVP</a></li>
-                            <li><a>Venue</a></li>
+                            <li><a href="#rsvp" rel="rsvp-region" class="m-header--menu-scroll-to">RSVP</a></li>
+                            <li><a href="#venue" rel="venue-region" class="m-header--menu-scroll-to">Venue</a></li>
                          </ul>
                     </div>
                 </div>
@@ -26,8 +26,8 @@
                 </div>
                 <div class="small-12 medium-4 large-4 columns">
                     <ul class="small-block-grid-2">
-                        <li><a data-reveal-id="myModal">Suggest Songs</a></li>
-                        <li><a>Guest Book</a></li>
+                        <li><a href="javascript:void(0)" data-reveal-id="myModal">Suggest Songs</a></li>
+                        <li><a href="#guestbook" rel="guestbook-region" class="m-header--menu-scroll-to">Guest Book</a></li>
                     </ul>
                 </div>
             </div>
@@ -161,7 +161,7 @@
             </li>
         </ul>
     </div>
-    <div class="row">
+    <div class="row" id="rsvp-region">
         <div class="row">
             <div class="small-12 medium-12 large-12 columns text-center main-heading">
                 <h5>Are you attending?</h5>
@@ -195,7 +195,7 @@
                 </div>
             </div>
     </div>
-    <div class="row">
+    <div class="row" id="venue-region">
         <div class="small-12 medium-12 large-12 columns text-center main-heading">
             <h5>The Venue<br/>
             Struan Castle Garden
@@ -219,6 +219,9 @@
         </ul>
     </div>
     <div id="map-canvas"></div>
+    <div class="row" id="guestbook-region">
+        <p>guestbook coming soon</p>
+    </div>
     <div class="footer">
         <div class="row">
             <div class="small-12 small-centered medium-6 medium-centered large-6 large-centered columns">
@@ -284,12 +287,6 @@
           });
       }
       google.maps.event.addDomListener(window, 'load', initialize);
-    </script>
-
-    <script type="text/javascript">
-        $('#getting-started').countdown('2015/01/01', function(event) {
-            $(this).html(event.strftime('%w weeks %d days %H:%M:%S'));
-        });
     </script>
   </body>
 </html>
