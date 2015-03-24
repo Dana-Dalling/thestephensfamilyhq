@@ -5,7 +5,7 @@ require 'config.php';
 require '../vendor/mailgun/mailgun-php/src/Mailgun/Mailgun.php';
 
 use TheStephensHQ\Config;
-use Mailgun;
+use \Mailgun;
 
 
 //instantiate mailgun and the site config
