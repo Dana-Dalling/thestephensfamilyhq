@@ -43,4 +43,45 @@ $( document ).ready(function() {
             scrollTop: $("#"+region).offset().top
         }, 1000);
     });
+
+    $(".m-async-form").submit(function(event) {
+        event.preventDefault();
+        var operation = $(this).attr('action');
+        var data = $(this).serializeArray();
+        $.ajax({
+            type: "POST",
+            url: operation,
+            data: data,
+            dataType: 'json'
+        }).done(function(response) {
+                //set selectors for multi use
+                var rsvp_code_field = $('#rsvp_code');
+                var rsvp_label = $('#rsvp-response-msg');
+                var rsvp_form = $('#rsvp-form');
+                if(!response.success){
+                    rsvp_code_field.addClass('highlight_field');
+                    rsvp_label.addClass('error');
+                    $('#rsvp-response-msg').html(response.message);
+                }else{
+                    rsvp_code_field.removeClass('highlight_field');
+                    rsvp_label.removeClass('error');
+                    rsvp_label.html('Please enter your RSVP Code');
+
+                    //hide the rsvp form
+                    rsvp_form.slideUp(500);
+
+                    //show thank you note
+                    $('#thank-you-note').html('<h3>Thank You So Much!</h3>')
+                    //reset the form
+                    rsvp_form.reset();
+                }
+                //close any modal that was up
+                //$('.close-reveal-modal').trigger('click');
+            });
+    });
+
+    $('#submit-rsvp-form').on('click', function(){
+       $('#rsvp-form').submit();
+    });
+
 });
