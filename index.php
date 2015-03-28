@@ -12,26 +12,34 @@
   <body>
     <div class="hero-bg">
         <div class="header-container">
-            <div class="row" id="nav">
+          <div id="nav">
+            <div class="row">
                 <div class="small-12 medium-4 large-4 columns">
                     <div class="row">
-                        <ul class="small-block-grid-3 medium-block-grid-3 large-block-grid-3">
-                            <li><a href="#rsvp" rel="rsvp-region" class="m-header--menu-scroll-to">RSVP</a></li>
-                            <li><a href="#venue" rel="venue-region" class="m-header--menu-scroll-to">Venue</a></li>
-                         </ul>
-                    </div>
+                        <div class="small-12 medium-4 large-4 columns">
+                            <a data-dropdown="drop1" aria-controls="drop1" aria-expanded="false">
+                               <div class="main-menu">
+                                <i class="fa fa-bars"></i>
+                            </a>
+                                    <ul id="drop1" class="f-dropdown" data-dropdown-content aria-hidden="true" tabindex="-1">
+                                        <li><a href="#rsvp" rel="rsvp-region" class="m-header--menu-scroll-to">RSVP</a></li>
+                                        <li><a href="#venue" rel="venue-region" class="m-header--menu-scroll-to">Venue</a></li>
+                                        <li><a href="javascript:void(0)" data-reveal-id="myModal">Suggest Songs</a></li>
+                                        <li><a href="#guestbook" rel="guestbook-region" class="m-header--menu-scroll-to">Guest Book</a></li>
+                                    </ul>
+                                </div>
+                        </div>
                 </div>
+
+            </div>
                 <div class="small-12 medium-4 large-4 columns logo-container">
                     <img src="img/logo.png" title="Dana and Fabion">
                 </div>
                 <div class="small-12 medium-4 large-4 columns">
-                    <ul class="small-block-grid-2">
-                        <li><a href="javascript:void(0)" data-reveal-id="myModal">Suggest Songs</a></li>
-                        <li><a href="#guestbook" rel="guestbook-region" class="m-header--menu-scroll-to">Guest Book</a></li>
-                    </ul>
+
                 </div>
             </div>
-
+          </div>
             <div class="row">
                 <div class="small-11 large-centered columns text-center you-are-invited">
                     <h1>We’re getting married & You’re invited!</h1>
@@ -139,25 +147,34 @@
                 <img src="img/latoya.png">
                 <h3>Latoya Dalling</h3>
                 <h6>Bridesmaid</h6>
-                <p> Sister of the Bride</p>
+                <h5>Sister of the Bride</h5>
+                <p>Latoya (Toya) is Slightly awkward & spontaneously funny even when she's being laugh at.
+
+                </p>
             </li>
            <li>
                <img src="img/iana.png">
                <h3>Iana Cross</h3>
                <h6>Bridesmaid</h6>
-               <p> Sister of the Bride</p>
+               <h5>Sister of the Bride</h5>
+               <p>
+               Iana (Ana) is shy, Randomly crazy and is consider the Groom's "Squady".
+               </p>
+
            </li>
             <li>
                 <img src="img/kwami.png">
                 <h3>Kwami Roberts</h3>
                 <h6>Best Man</h6>
-                <p> Friend of the Groom</p>
+                <h5> Friend of the Groom</h5>
+                <p>Mauris eu dui vestibulum, maximus exet molestie felis Duis elementum dolor leo.</p>
             </li>
             <li>
                 <img src="img/oliver.png">
                 <h3>Oliver Stephens</h3>
                 <h6>Groomsman</h6>
-                <p> Brother of the Groom</p>
+                <h5>Brother of the Groom</h5>
+                <p> Duis elementum dolor leo. Mauris eu dui vestibulum, maximus ex et, molestie felis.</p>
             </li>
         </ul>
     </div>
@@ -198,9 +215,7 @@
     </div>
     <div class="row" id="venue-region">
         <div class="small-12 medium-12 large-12 columns text-center main-heading">
-            <h5>The Venue<br/>
-            Struan Castle Garden
-            </h5>
+            <h5>Struan Castle Garden</h5>
         </div>
     </div>
     <div class="row">

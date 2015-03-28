@@ -40,7 +40,7 @@ $( document ).ready(function() {
     $(".m-header--menu-scroll-to").on('click',function() {
         var region = $(this).attr('rel');
         $('html, body').animate({
-            scrollTop: $("#"+region).offset().top
+            scrollTop: $("#"+region).offset().top-250
         }, 1000);
     });
 

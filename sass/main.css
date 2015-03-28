@@ -5,21 +5,37 @@
   padding-top: 5rem;
   background-size: cover; }
 
-.header-container {
-  background: #ffffff;
-  max-height: 70px; }
+.header-container #nav {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  border-bottom: 1px solid #3D51A3;
+  min-height: 70px;
+  background: #fff;
+  border-top: 1px solid #3D51A3; }
+
+.main-menu {
+  margin-top: 1.3rem; }
+  .main-menu i {
+    color: royalblue; }
+  .main-menu a span {
+    font-size: 0.9rem;
+    color: grey !important; }
 
 .logo-container img {
-  margin: -3.3rem 0 2rem 0; }
+  margin: -3.3rem 0 2rem 0;
+  position: absolute; }
 
-.you-are-invited h1 {
-  color: #ffffff;
-  font-weight: bold;
-  font-size: 3rem; }
-.you-are-invited p {
-  color: #ffffff;
-  font-weight: 300;
-  font-size: 1.3rem; }
+.you-are-invited {
+  padding-top: 13rem; }
+  .you-are-invited h1 {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 3rem; }
+  .you-are-invited p {
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 1.3rem; }
 
 .rsvp-cta p {
   padding: 1.4rem 0 0 0;
@@ -67,6 +83,9 @@
   .our-bridal-party h6 {
     color: #3e51a3;
     font-weight: 500; }
+  .our-bridal-party h5 {
+    font-size: 0.8rem;
+    font-weight: bold; }
   .our-bridal-party p {
     font-weight: 300;
     color: #757575;
@@ -89,6 +108,9 @@
     color: #9B9B9B; }
   .footer i {
     font-size: 0.3rem; }
+
+.boldy {
+  font-weight: bold; }
 
 .our-story-img {
   margin: 0 0 2.5rem 0; }
@@ -178,5 +200,32 @@
 
 #rsvp-response-msg.error {
   color: #F0A8EA; }
+
+.f-dropdown {
+  width: 300px !important; }
+
+@media only screen and (max-width: 40em) {
+  .logo-container img {
+    margin: -3.3rem 0 2rem 0;
+    position: absolute;
+    width: 25%;
+    right: 9rem;
+    top: -1rem; }
+
+  .header-container #nav {
+    width: 10%;
+    border-right: solid 1px #3e51a3;
+    margin-right: 2rem; }
+
+  .you-are-invited {
+    padding-top: 5rem; }
+    .you-are-invited h1 {
+      font-size: 2rem; }
+    .you-are-invited p {
+      font-size: 0.9rem; }
+
+  .hero-bg {
+    min-height: 270px;
+    padding-top: 5rem; } }
 
 /*# sourceMappingURL=main.css.map */
