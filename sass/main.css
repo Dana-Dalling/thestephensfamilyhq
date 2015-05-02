@@ -1,4 +1,20 @@
 @import url(http://fonts.googleapis.com/css?family=Poiret+One|Lily+Script+One|Lobster|Great+Vibes|Pacifico|Dancing+Script:400,700|Lobster+Two:400,700|Satisfy|Rochester|Sacramento);
+.inline-list {
+  margin: 0 auto 0 auto !important; }
+  .inline-list ul {
+    font-size: 0.7rem !important; }
+  .inline-list a {
+    color: grey; }
+
+#site-header {
+  background: #fffff;
+  padding: 1rem 0; }
+
+#top-hero {
+  background: royalblue;
+  padding: 3rem;
+  min-height: 400px; }
+
 .hero-bg {
   background-image: url("../img/hero-bg.png");
   min-height: 570px;
@@ -143,6 +159,21 @@
   padding: 1rem !important;
   margin-top: 0.5rem !important;
   min-height: 4rem; }
+
+.form-fields-textarea {
+  border-radius: 3px !important;
+  padding: 1rem !important;
+  margin-top: 0.5rem !important;
+  min-height: 5rem; }
+
+.guest-book-entry {
+  background: silver;
+  margin: 3rem 0;
+  padding-top: 1rem;
+  border-radius: 3px; }
+
+.guest-book-user-photo img {
+  width: 50%; }
 
 .dancing-shoes-heading {
   border-top: dotted 2px #7889d2; }

@@ -1,6 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="en">
-  <head>
+<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dana & Fabion are getting married! | Welcome to our website!</title>
@@ -8,88 +8,75 @@
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <script src="js/vendor/modernizr.js"></script>
-  </head>
-  <body>
-    <div class="hero-bg">
-        <div class="header-container">
-          <div id="nav">
-            <div class="row">
-                <div class="small-12 medium-4 large-4 columns">
-                    <div class="row">
-                        <div class="small-12 medium-4 large-4 columns">
-                            <a data-dropdown="drop1" aria-controls="drop1" aria-expanded="false">
-                               <div class="main-menu">
-                                <i class="fa fa-bars"></i>
-                            </a>
-                                    <ul id="drop1" class="f-dropdown" data-dropdown-content aria-hidden="true" tabindex="-1">
-                                        <li><a href="#rsvp" rel="rsvp-region" class="m-header--menu-scroll-to">RSVP</a></li>
-                                        <li><a href="#venue" rel="venue-region" class="m-header--menu-scroll-to">Venue</a></li>
-                                        <li><a href="javascript:void(0)" data-reveal-id="myModal">Suggest Songs</a></li>
-                                        <li><a href="#guestbook" rel="guestbook-region" class="m-header--menu-scroll-to">Guest Book</a></li>
-                                    </ul>
-                                </div>
-                        </div>
-                </div>
-
-            </div>
-                <div class="small-12 medium-4 large-4 columns logo-container">
-                    <img src="img/logo.png" title="Dana and Fabion">
-                </div>
-                <div class="small-12 medium-4 large-4 columns">
-
-                </div>
-            </div>
-          </div>
-            <div class="row">
-                <div class="small-11 large-centered columns text-center you-are-invited">
-                    <h1>We’re getting married & You’re invited!</h1>
-                    <p>Please join us for our wedding celebrations at Struan Castle Garden,<br>
-                        Stony Hill, St. Andrew. Ceremony begins @ 5pm.
-                    </p>
-                </div>
-            </div>
+</head>
+<body>
+<div id="site-header">
+    <div class="row">
+        <div class="small-12 medium-7 large-7 columns">
+           <h2>D & F</h2>
+           <p>June 28, 2015</p>
+        </div>
+        <div class="small-12 medium-5 large-5 columns mt2">
+            <ul class="inline-list">
+                <li><a href="#rsvp" rel="rsvp-region" class="m-header--menu-scroll-to">RSVP</a></li>
+                <li><a href="#venue" rel="venue-region" class="m-header--menu-scroll-to">Venue</a></li>
+                <li><a href="javascript:void(0)" data-reveal-id="myModal">Suggest Songs</a></li>
+                <li><a href="#guestbook" rel="guestbook-region" class="m-header--menu-scroll-to">Guest Book</a></li>
+            </ul>
         </div>
     </div>
-    <div class="count-down-container" ">
-        <div class="row">
-            <div class="small-12 medium-8 large-8 columns">
-                <ul class="dana-fabion-wedding-countdown small-block-grid-2 medium-block-grid-4 large-block-grid-4"
-                    id="1435467600">
-                    <li>
+</div>
+<div id="top-hero">
+    <div class="row">
+        <div class="small-12 small-centered medium-10 medium-centered large-10 large-centered columns text-center">
+            <div class="hero-into-text">
+             <h1>
+                You are invited to our Unplugged Wedding!</br>
+                ----------
+            </h1>
+            <p>
+              Join us on June 28, 2015 at the beautiful Struan Castle Garden,
+            </br>Stony Hill, St. Andrew. Ceremony begins @ 4pm.
+            </p>
+            </div>
+</div>
+</div>
+</div>
+<div class="count-down-container" ">
+<div class="row">
+    <div class="small-12 small-centered medium-8 medium-centered large-8 large-centered columns">
+        <ul class="dana-fabion-wedding-countdown small-block-grid-2 medium-block-grid-4 large-block-grid-4"
+            id="1435467600">
+            <li>
                         <span class="timer-circle">
                             <span class="time-left--days">0</span>
                             <span>Days</span>
                         </span>
-                    </li>
-                    <li>
+            </li>
+            <li>
                         <span class="timer-circle">
                             <span class="time-left--hours">0</span>
                             <span>Hours</span>
                         </span>
-                    </li>
-                    <li>
+            </li>
+            <li>
                         <span class="timer-circle">
                             <span class="time-left--minutes">0</span>
                             <span>Minutes</span>
                         </span>
-                    </li>
-                    <li>
+            </li>
+            <li>
                         <span class="timer-circle">
                             <span class="time-left--seconds">0</span>
                             <span>Seconds</span>
                         </span>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="small-12 medium-4 large-4 columns">
-                <h2 class="until-id-txt">Until we say " we do "!</h2>
-            </div>
-
-        </div>
+            </li>
+        </ul>
+        <h2 class="until-id-txt text-center">Until we say " we do "!</h2>
     </div>
-
-    <div class="row">
+</div>
+</div>
+ <div class="row">
         <div class="small-12 medium-6 large-6 columns text-center the-couple">
 
             <h4 class="text-center">
@@ -147,34 +134,25 @@
                 <img src="img/latoya.png">
                 <h3>Latoya Dalling</h3>
                 <h6>Bridesmaid</h6>
-                <h5>Sister of the Bride</h5>
-                <p>Latoya (Toya) is Slightly awkward & spontaneously funny even when she's being laugh at.
-
-                </p>
+                <p> Sister of the Bride</p>
             </li>
            <li>
                <img src="img/iana.png">
                <h3>Iana Cross</h3>
                <h6>Bridesmaid</h6>
-               <h5>Sister of the Bride</h5>
-               <p>
-               Iana (Ana) is shy, Randomly crazy and is consider the Groom's "Squady".
-               </p>
-
+               <p> Sister of the Bride</p>
            </li>
             <li>
                 <img src="img/kwami.png">
                 <h3>Kwami Roberts</h3>
                 <h6>Best Man</h6>
-                <h5> Friend of the Groom</h5>
-                <p>Mauris eu dui vestibulum, maximus exet molestie felis Duis elementum dolor leo.</p>
+                <p> Friend of the Groom</p>
             </li>
             <li>
                 <img src="img/oliver.png">
                 <h3>Oliver Stephens</h3>
                 <h6>Groomsman</h6>
-                <h5>Brother of the Groom</h5>
-                <p> Duis elementum dolor leo. Mauris eu dui vestibulum, maximus ex et, molestie felis.</p>
+                <p> Brother of the Groom</p>
             </li>
         </ul>
     </div>
@@ -215,7 +193,9 @@
     </div>
     <div class="row" id="venue-region">
         <div class="small-12 medium-12 large-12 columns text-center main-heading">
-            <h5>Struan Castle Garden</h5>
+            <h5>The Venue<br/>
+            Struan Castle Garden
+            </h5>
         </div>
     </div>
     <div class="row">
@@ -278,31 +258,33 @@
         </div>
 
 
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/foundation.min.js"></script>
-    <script src="js/jquery.countdown.min.js"></script>
-    <script src="js/main.js"></script>
 
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
 
-    <script>
-      $(document).foundation();
-      function initialize() {
-          var mapCanvas = document.getElementById('map-canvas');
-          var mapOptions = {
-              center: new google.maps.LatLng(18.0844286, -76.7943495),
-              zoom: 15,
-              mapTypeId: google.maps.MapTypeId.ROADMAP,
-              scrollwheel: false
-          }
-          var map = new google.maps.Map(mapCanvas, mapOptions);
-          var marker = new google.maps.Marker({
-              position: mapOptions.center,
-              map: map,
-              title: 'Struan Castle Garden'
-          });
-      }
-      google.maps.event.addDomListener(window, 'load', initialize);
-    </script>
-  </body>
+<script src="js/vendor/jquery.js"></script>
+<script src="js/foundation.min.js"></script>
+<script src="js/jquery.countdown.min.js"></script>
+<script src="js/main.js"></script>
+
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+
+<script>
+    $(document).foundation();
+    function initialize() {
+        var mapCanvas = document.getElementById('map-canvas');
+        var mapOptions = {
+            center: new google.maps.LatLng(18.0844286, -76.7943495),
+            zoom: 15,
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            scrollwheel: false
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions);
+        var marker = new google.maps.Marker({
+            position: mapOptions.center,
+            map: map,
+            title: 'Struan Castle Garden'
+        });
+    }
+    google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+</body>
 </html>
