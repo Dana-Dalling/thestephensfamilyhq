@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dana & Fabion are getting married! | Welcome to our website!</title>
+    <title>Welcome to our website: Dana Dalling & Fabion Stephens Wedding </title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -12,13 +12,14 @@
 <body>
 <div id="site-header">
     <div class="row">
-        <div class="small-12 medium-7 large-7 columns">
+        <div class="small-12 medium-6 large-6 columns">
            <h2>D & F</h2>
            <p>June 28, 2015</p>
         </div>
-        <div class="small-12 medium-5 large-5 columns mt2">
+        <div class="small-12 medium-6 large-6 columns mt2">
             <ul class="inline-list">
                 <li><a href="#rsvp" rel="rsvp-region" class="m-header--menu-scroll-to">RSVP</a></li>
+                <li><a href="#details" rel="details-region" class="m-header--menu-scroll-to">Where & When</a></li>
                 <li><a href="#venue" rel="venue-region" class="m-header--menu-scroll-to">Venue</a></li>
                 <li><a href="javascript:void(0)" data-reveal-id="myModal">Suggest Songs</a></li>
                 <li><a href="#guestbook" rel="guestbook-region" class="m-header--menu-scroll-to">Guest Book</a></li>
@@ -31,12 +32,13 @@
         <div class="small-12 small-centered medium-10 medium-centered large-10 large-centered columns text-center">
             <div class="hero-into-text">
              <h1>
-                You are invited to our Unplugged Wedding!</br>
-                ----------
+                You are invited to our Unplugged Wedding!<br>
             </h1>
-            <p>
+                <i class="fa fa-heart" style="color: #fad956; font-size: 3rem; margin: 2rem 0"></i>
+
+                <p>
               Join us on June 28, 2015 at the beautiful Struan Castle Garden,
-            </br>Stony Hill, St. Andrew. Ceremony begins @ 4pm.
+            <br>Stony Hill, St. Andrew.
             </p>
             </div>
 </div>
@@ -48,28 +50,28 @@
         <ul class="dana-fabion-wedding-countdown small-block-grid-2 medium-block-grid-4 large-block-grid-4"
             id="1435467600">
             <li>
-                        <span class="timer-circle">
-                            <span class="time-left--days">0</span>
-                            <span>Days</span>
-                        </span>
+                <span class="timer-circle">
+                    <span class="time-left--days">0</span>
+                    <span>Days</span>
+                </span>
             </li>
             <li>
-                        <span class="timer-circle">
-                            <span class="time-left--hours">0</span>
-                            <span>Hours</span>
-                        </span>
+                <span class="timer-circle">
+                    <span class="time-left--hours">0</span>
+                    <span>Hours</span>
+                </span>
             </li>
             <li>
-                        <span class="timer-circle">
-                            <span class="time-left--minutes">0</span>
-                            <span>Minutes</span>
-                        </span>
+                <span class="timer-circle">
+                    <span class="time-left--minutes">0</span>
+                    <span>Minutes</span>
+                </span>
             </li>
             <li>
-                        <span class="timer-circle">
-                            <span class="time-left--seconds">0</span>
-                            <span>Seconds</span>
-                        </span>
+                <span class="timer-circle">
+                    <span class="time-left--seconds">0</span>
+                    <span>Seconds</span>
+                </span>
             </li>
         </ul>
         <h2 class="until-id-txt text-center">Until we say " we do "!</h2>
@@ -83,7 +85,7 @@
                 <i class="fa fa-heart"></i>
                 <i class="fa fa-heart"></i>
                 <i class="fa fa-heart"></i>
-                The Bride
+                        The Bride
                 <i class="fa fa-heart"></i>
                 <i class="fa fa-heart"></i>
                 <i class="fa fa-heart"></i>
@@ -92,20 +94,23 @@
             <div class="name">
                 Dana Deandra Dalling
             </div>
-            <p class="about">
-                Tmet adipiscing sem neque
-                sed ipsum. Nam quam nunc, blandit vel, luctus
-                pulvinar, hendrerit id, lorem. Maecenas nec
-                odio e ante tincidunt tempus. Donec vitae sapien
-                ut libero venenatis faucibus.
-            </p>
+            <div class="about">
+                <p>
+                    Fabion and I met in May of 2005 idling in a Digicel chat room where we
+                    became phone friends. We spend hours talking (and sleeping) over the phone.
+
+                    He became my confidant over a year of chatting over the phone even though
+                    we had never met. I still remember the first time we officially met in person
+
+                </p>
+            </div>
         </div>
         <div class="small-12 medium-6 large-6 columns text-center the-couple">
             <h4 class="text-center">
                 <i class="fa fa-heart"></i>
                 <i class="fa fa-heart"></i>
                 <i class="fa fa-heart"></i>
-                The Groom
+                        The Groom
                 <i class="fa fa-heart"></i>
                 <i class="fa fa-heart"></i>
                 <i class="fa fa-heart"></i>
@@ -133,7 +138,7 @@
             <li>
                 <img src="img/latoya.png">
                 <h3>Latoya Dalling</h3>
-                <h6>Bridesmaid</h6>
+                <h6>Maid of Honor</h6>
                 <p> Sister of the Bride</p>
             </li>
            <li>
@@ -159,16 +164,22 @@
     <div class="row" id="rsvp-region">
         <div class="row">
             <div class="small-12 medium-12 large-12 columns text-center main-heading">
-                <h5>Are you attending?</h5>
+                <h5>Are you attending?  </h5>
+                <p>PLEASE NOTE: Invitations are only extended to those that the invitation was addressed to. </br>Thank you for understanding.</p>
                 <p>Please RSVP by May 31st, 2015.</p>
+
             </div>
         </div>
             <div class="small-12 small-centered medium-6 medium-centered large-6 large-centered columns" id="rsvp">
                 <div id="thank-you-note"></div>
                 <form id="rsvp-form" action="inc/validate_send_rsvp.php" method="POST" class="m-async-form">
                     <label>
-                        <div id="rsvp-response-msg">Please enter your RSVP Code</div>
-                        <input type="text" id="rsvp_code" name="rsvp_code" placeholder="Code can be found on your RSVP card :)" class="form-fields" />
+                        <div id="rsvp-response-msg">First name</div>
+                        <input type="text" id="rsvp_code" name="rsvp_code" placeholder="John" class="form-fields" />
+                    </label>
+                    <label>
+                        <div id="rsvp-response-msg">Last name</div>
+                        <input type="text" id="rsvp_code" name="rsvp_code" placeholder="Doe" class="form-fields" />
                     </label>
                     <label>
                         <div>Which events will you be attending</div>
@@ -177,7 +188,6 @@
                             <option value="not-attending">Not Attending</option>
                             <option value="ceremony">Ceremony</option>
                             <option value="reception">Reception</option>
-                            <option value="after-party">After Party</option>
                         </select>
                     </label>
                     <div>
@@ -191,6 +201,34 @@
                 </div>
             </div>
     </div>
+
+
+<div class="row" id="details-region">
+    <div class="row">
+        <div class="small-12 medium-12 large-12 columns text-center main-heading">
+            <h5>Details of our day</h5>
+        </div>
+    </div>
+</div>
+<div class="details-container">
+    <div class="row ">
+        <div class="small-12 medium-6 large-6 large-centered columns details-ceremony-reception">
+            <img src="img/flower.png">
+            <div class="details-content">
+                <h4>Ceremony</h4>
+                <p>
+                    Our ceremony will start promptly at 4p.m. Please dress in formal attire. The ceremony will be on the lawn; choose your footwear accordingly!
+                </p>
+                <h4>Reception</h4>
+                <p>
+                    Our reception will start promptly at 5:30p.m.
+                </p>
+                <h6 class="boldy">Location: </h6>
+                <p>Struan Castle Garden, Airy Castle Road,<br> Stony Hill, Saint Andrew</p>
+            </div>
+        </div>
+    </div>
+</div>
     <div class="row" id="venue-region">
         <div class="small-12 medium-12 large-12 columns text-center main-heading">
             <h5>The Venue<br/>
@@ -198,25 +236,32 @@
             </h5>
         </div>
     </div>
-    <div class="row">
-        <ul class="small-block-grid-4">
-            <li>
-                <img src="img/straun1.jpg">
-            </li>
-            <li>
-                <img src="img/straun2.JPG">
-            </li>
-            <li>
-                <img src="img/straun3.jpg">
-            </li>
-            <li>
-                <img src="img/straun4.jpg">
-            </li>
-        </ul>
-    </div>
+
+<div class="small-12 columns">
     <div id="map-canvas"></div>
+
+    <ul class="small-block-grid-4">
+        <li class="no-p">
+            <img src="img/straun1.jpg">
+        </li>
+        <li class="no-p">
+            <img src="img/straun2.JPG">
+        </li>
+        <li class="no-p">
+            <img src="img/straun3.jpg">
+        </li>
+        <li class="no-p">
+            <img src="img/straun4.jpg">
+        </li>
+    </ul>
+</div>
+
     <div class="row" id="guestbook-region">
-        <p>guestbook coming soon</p>
+        <div class="row">
+            <div class="small-12 medium-12 large-12 columns text-center main-heading">
+                <h5>Guestbook</h5>
+            </div>
+        </div>
     </div>
     <div class="footer">
         <div class="row">

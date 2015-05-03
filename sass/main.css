@@ -1,22 +1,92 @@
-@import url(http://fonts.googleapis.com/css?family=Poiret+One|Lily+Script+One|Lobster|Great+Vibes|Pacifico|Dancing+Script:400,700|Lobster+Two:400,700|Satisfy|Rochester|Sacramento);
+@import url(http://fonts.googleapis.com/css?family=Poiret+One|Lily+Script+One|Lobster|Great+Vibes|Pacifico|Dancing+Script:400,700|Lobster+Two:400,700|Satisfy|Rochester|Sacramento|family=Great+Vibes|Pinyon+Script);
 .inline-list {
   margin: 0 auto 0 auto !important; }
-  .inline-list ul {
-    font-size: 0.7rem !important; }
-  .inline-list a {
-    color: grey; }
+  .inline-list ul a {
+    color: grey;
+    font-size: 0.8rem !important;
+    font-weight: 200; }
+    .inline-list ul a:hover {
+      color: royalblue; }
+
+.hero-into-text h1 {
+  font-size: 5rem;
+  color: #ffffff !important;
+  margin-top: 2rem;
+  font-family: "Rochester", cursive; }
+.hero-into-text p {
+  color: #ffffff;
+  font-weight: 200; }
+
+.timer-circle {
+  display: block;
+  height: 7em;
+  width: 7em;
+  color: #9B9B9B;
+  background: #ffffff;
+  border-radius: 4px; }
+  .timer-circle span {
+    display: block;
+    text-align: center; }
+    .timer-circle span:first-child {
+      padding-top: 0.3em;
+      font-size: 2.5rem; }
+
+.count-down-container {
+  background: #3e51a3;
+  padding: 2rem;
+  margin-bottom: 2rem; }
+  .count-down-container h2 {
+    color: #fff;
+    margin-top: 1.8rem;
+    text-transform: capitalize; }
+
+.until-id-txt {
+  font-family: "Rochester", cursive;
+  font-size: 1.8rem;
+  color: #fff !important; }
 
 #site-header {
-  background: #fffff;
-  padding: 1rem 0; }
+  background: #ffffff !important;
+  padding: 2rem 0;
+  width: 100%; }
+  #site-header h2 {
+    font-family: "Great Vibes", cursive;
+    font-size: 2.5rem;
+    color: #3e51a3;
+    padding: 0;
+    margin: 0; }
+  #site-header p {
+    margin: 0;
+    padding: 0;
+    font-weight: 200; }
 
 #top-hero {
-  background: royalblue;
+  background-image: url("../img/hero-img.jpg");
+  width: 100%;
   padding: 3rem;
-  min-height: 400px; }
+  min-height: 400px;
+  background-size: cover; }
+
+.details-container {
+  background: url("https://download.unsplash.com/11/sky-rose.jpg");
+  margin-bottom: 3rem; }
+
+.mt2 {
+  margin-top: 2rem; }
+
+.details-ceremony {
+  background: #3e51a3;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding: 1rem;
+  border-radius: 3px; }
+
+.details-content {
+  border: solid grey 1px;
+  height: 300px; }
 
 .hero-bg {
-  background-image: url("../img/hero-bg.png");
+  background-image: url("../img/hero-img.png");
   min-height: 570px;
   padding-top: 5rem;
   background-size: cover; }
@@ -107,14 +177,16 @@
     color: #757575;
     font-size: 0.85rem; }
 
-.the-couple h4 {
-  font-family: "Lobster", cursive; }
-.the-couple i {
-  color: #8dc0e4 !important;
-  font-size: 0.8rem;
-  vertical-align: middle; }
-.the-couple img {
-  margin-top: 1.5rem; }
+.the-couple {
+  margin-top: 2.5rem; }
+  .the-couple h4 {
+    font-family: "Lobster", cursive; }
+  .the-couple i {
+    color: #fad956 !important;
+    font-size: 0.8rem;
+    vertical-align: middle; }
+  .the-couple img {
+    margin-top: 1.5rem; }
 
 .footer {
   background: black;
@@ -130,15 +202,6 @@
 
 .our-story-img {
   margin: 0 0 2.5rem 0; }
-
-.count-down-container {
-  background: #3e51a3;
-  padding: 2rem;
-  margin-bottom: 2rem; }
-  .count-down-container h2 {
-    color: #fff;
-    margin-top: 1.8rem;
-    text-transform: capitalize; }
 
 #rsvp {
   background: #3e51a3;
@@ -192,23 +255,6 @@
   #map-canvas img {
     max-width: none; }
 
-.timer-circle {
-  display: block;
-  height: 7em;
-  border: 1px solid #fff;
-  width: 7em;
-  border-radius: 50%;
-  color: #fff; }
-  .timer-circle span {
-    display: block;
-    text-align: center; }
-    .timer-circle span:first-child {
-      padding-top: 2em; }
-
-.until-id-txt {
-  font-family: "Rochester", cursive;
-  font-size: 1.8rem; }
-
 #modalTitle {
   font-family: "Rochester", cursive;
   color: #3e51a3;
@@ -257,6 +303,11 @@
 
   .hero-bg {
     min-height: 270px;
-    padding-top: 5rem; } }
+    padding-top: 5rem; }
+
+  .hero-into-text h1 {
+    font-size: 2.5rem; }
+  .hero-into-text p {
+    font-size: 0.9rem; } }
 
 /*# sourceMappingURL=main.css.map */
