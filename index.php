@@ -96,13 +96,26 @@
             </div>
             <div class="about">
                 <p>
-                    Fabion and I met in May of 2005 idling in a Digicel chat room where we
-                    became phone friends. We spend hours talking (and sleeping) over the phone.
-
-                    He became my confidant over a year of chatting over the phone even though
-                    we had never met. I still remember the first time we officially met in person
-
+                    Fabion and I met in May of 2005 idling in a Digicel chatroom (before I knew what the internet was).
+                    We quickly became phone friends spending hours talking (and sleeping) over the phone.
+                    We lost touch for a while but reconnected and picked up where we left off.
                 </p>
+                <p>
+                    Although it took us 1yr to official meet face to face,
+                    I knew I loved him before we met.
+                    Fabion became and still is my best friend in the world.
+                </p>
+                <p>
+                    Our first time meeting, he came to my school to take me to lunch, I had to sneak out of class as the anxiety
+                    was killing me.
+                    He greeted me with a hug and all I felt were butterflies.
+                </p>
+                <p>
+                    He's funny, caring, protective. easy to talk to and a great mentor. I'm looking forward to building our
+                    future and old with him by my side.
+                </p>
+
+
             </div>
         </div>
         <div class="small-12 medium-6 large-6 columns text-center the-couple">
@@ -124,9 +137,9 @@
                 odio e ante tincidunt tempus. Donec vitae sapien
                 ut libero venenatis faucibus.</p>
         </div>
-        <div class="small-12 medium-12 large-12 columns text-center ">
+     <!--<div class="small-12 medium-12 large-12 columns text-center ">
             <img src="img/read-our-story-cta.png" class="our-story-img">
-        </div>
+        </div> -->
     </div>
     <div class="row">
         <div class="small-12 medium-12 large-12 columns text-center main-heading">
