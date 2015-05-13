@@ -7,4 +7,12 @@ class Config{
             'domain' => 'sandbox4b98ecdeed50474d887a6033b5ba144d.mailgun.org'
         );
     }
+    public function db_connect($localhost, $user, $pwd, $db_name){
+        $link = mysqli_connect($localhost, $user, $pwd, $db_name);
+        if (!$link) {
+            die('Could not connect: ' . mysql_error());
+        }
+        echo 'Connected successfully';
+        mysql_close($link);
+    }
 }

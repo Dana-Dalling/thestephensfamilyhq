@@ -5,6 +5,8 @@
 body
   font-family: 'Josefin Sans', sans-serif
   font-size: 1.2rem !important
+h1, h2, h3, h4, h5, h6
+  font-family: 'Josefin Sans', sans-serif
 
 .inline-list
   margin: 0 auto 0 auto !important
@@ -21,12 +23,14 @@ body
   h1
     font-size: 5rem
     color: #ffffff !important
-    margin-top: 2rem
+    margin-top: 13rem
     font-family: "Great Vibes", cursive
   p
     color: #ffffff
     font-size: 1.5rem
     font-weight: 200
+  img
+    margin: 2rem 0
 
 
 .timer-circle
@@ -61,6 +65,12 @@ body
 #site-header
   background: #ffffff !important
   padding: 1rem 0
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  z-index: 100
+  box-shadow: 0 2px 2px #cbcbcb
   h2
     font-family: 'Great Vibes', cursive
     font-size: 2.5rem
@@ -89,7 +99,6 @@ body
 
 .details-ceremony-reception
   background: #ffffff
-  margin-top: 3rem
   margin-bottom: 3rem
   padding: 0 1rem 1rem 1rem
   text-align: center
@@ -198,10 +207,10 @@ body
 
 .main-heading
   h5
-    border-bottom: dotted 2px #f1f0f0
+    border-bottom: dotted 1px #f1f0f0
     font-weight: bold
-    border-top: dotted 2px #f1f0f0
-    margin: 2rem 0 4rem 0
+    border-top: dotted 1px #f1f0f0
+    margin: 2rem 0 2rem 0
     padding: 1rem
     font-size: 3rem
     font-family: "Great Vibes", cursive
@@ -230,12 +239,19 @@ body
   margin-top: 2.5rem
   h4
     font-family: "Great Vibes", cursive
+    padding: 1rem
+    font-size: 2rem
+    border-top: dotted 2px #ECECEC
+    border-bottom: dotted 2px #ECECEC
+
   i
     color: #fad956 !important
     font-size: 0.8rem
     vertical-align: middle
   img
     margin-top: 1.5rem
+    border-radius: 50%
+    border: solid 10px #ECECEC
 
 .footer
   background: black
@@ -252,20 +268,35 @@ body
 .our-story-img
   margin: 0 0 2.5rem 0
 
+.white-txt
+  color: #ffffff !important
+
+.no-border
+  border: none !important
+
+.disqus_fix
+  padding: 0 1.5rem
+
+.row
+  &.full-width
+    max-width: 100%
+    width: 100%
+
+
 
 #rsvp
   background: #3e51a3
   padding: 2rem
-  margin-bottom: 2rem
+  margin-bottom: 5rem
   label
     font-weight: 300
     color: #ffffff
+  h6
+    color: #ffffff
+    font-size: 1.4rem
+  p
+    color: #FFFFFF
 
-.rb-btn
-  background: #3e51a3 !important
-  color: white !important
-  border-radius: 3px !important
-  border: solid 1px silver
 
 .form-fields
   border-radius: 3px !important
@@ -273,22 +304,6 @@ body
   margin-top: 0.5rem !important
   min-height: 4rem
 
-.form-fields-textarea
-  border-radius: 3px !important
-  padding: 1rem !important
-  margin-top: 0.5rem !important
-  min-height: 5rem
-
-
-.guest-book-entry
-  background: silver
-  margin: 3rem 0
-  padding-top: 1rem
-  border-radius: 3px
-
-.guest-book-user-photo
-  img
-    width: 50%
 
 .dancing-shoes-heading
   border-top: dotted 2px #7889d2
@@ -296,7 +311,7 @@ body
     font-family: "Great Vibes", cursive
     color: #ffffff
     margin-top: 1rem
-    font-size: 2rem
+    font-size: 1.5rem
 
 .mb2
   margin-bottom: 2rem
@@ -320,7 +335,6 @@ body
 
 .lead
   text-align: center
-  font-size: 0.8rem !important
 
 
 .boldy

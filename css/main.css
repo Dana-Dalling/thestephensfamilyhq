@@ -6,37 +6,46 @@ body {
   font-size: 1.2rem !important;
 }
 
-/* line 9, ../sass/main.sass */
+/* line 8, ../sass/main.sass */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+/* line 11, ../sass/main.sass */
 .inline-list {
   margin: 0 auto 0 auto !important;
 }
-/* line 12, ../sass/main.sass */
+/* line 14, ../sass/main.sass */
 .inline-list a {
   color: grey;
   font-size: 1rem !important;
   font-weight: 200;
 }
-/* line 16, ../sass/main.sass */
+/* line 18, ../sass/main.sass */
 .inline-list a:hover {
   color: #3e51a3;
   border-bottom: dotted 2px #fad956;
 }
 
-/* line 21, ../sass/main.sass */
+/* line 23, ../sass/main.sass */
 .hero-into-text h1 {
   font-size: 5rem;
   color: #ffffff !important;
-  margin-top: 2rem;
+  margin-top: 13rem;
   font-family: "Great Vibes", cursive;
 }
-/* line 26, ../sass/main.sass */
+/* line 28, ../sass/main.sass */
 .hero-into-text p {
   color: #ffffff;
   font-size: 1.5rem;
   font-weight: 200;
 }
-
 /* line 32, ../sass/main.sass */
+.hero-into-text img {
+  margin: 2rem 0;
+}
+
+/* line 36, ../sass/main.sass */
 .timer-circle {
   display: block;
   height: 7em;
@@ -45,43 +54,49 @@ body {
   background: #ffffff;
   border-radius: 4px;
 }
-/* line 39, ../sass/main.sass */
+/* line 43, ../sass/main.sass */
 .timer-circle span {
   display: block;
   text-align: center;
 }
-/* line 42, ../sass/main.sass */
+/* line 46, ../sass/main.sass */
 .timer-circle span:first-child {
   padding-top: 0.3em;
   font-size: 2.5rem;
 }
 
-/* line 46, ../sass/main.sass */
+/* line 50, ../sass/main.sass */
 .count-down-container {
   background: #3e51a3;
   padding: 2rem;
   margin-bottom: 2rem;
 }
-/* line 50, ../sass/main.sass */
+/* line 54, ../sass/main.sass */
 .count-down-container h2 {
   color: #fff;
   margin-top: 1.8rem;
   text-transform: capitalize;
 }
 
-/* line 55, ../sass/main.sass */
+/* line 59, ../sass/main.sass */
 .until-id-txt {
   font-family: "Great Vibes", cursive;
   font-size: 1.8rem;
   color: #fff !important;
 }
 
-/* line 61, ../sass/main.sass */
+/* line 65, ../sass/main.sass */
 #site-header {
   background: #ffffff !important;
   padding: 1rem 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  box-shadow: 0 2px 2px #cbcbcb;
 }
-/* line 64, ../sass/main.sass */
+/* line 74, ../sass/main.sass */
 #site-header h2 {
   font-family: "Great Vibes", cursive;
   font-size: 2.5rem;
@@ -89,14 +104,14 @@ body {
   padding: 0;
   margin: 0;
 }
-/* line 70, ../sass/main.sass */
+/* line 80, ../sass/main.sass */
 #site-header p {
   margin: 0;
   padding: 0;
   font-weight: 200;
 }
 
-/* line 75, ../sass/main.sass */
+/* line 85, ../sass/main.sass */
 #top-hero {
   background-image: url("../img/hero-img.jpg");
   width: 100%;
@@ -105,29 +120,28 @@ body {
   background-size: cover;
 }
 
-/* line 82, ../sass/main.sass */
+/* line 92, ../sass/main.sass */
 .details-container {
   background: url("https://download.unsplash.com/43/unsplash_522b9cc0386f1_1.jpg");
   margin-bottom: 3rem;
   background-size: cover;
 }
 
-/* line 87, ../sass/main.sass */
+/* line 97, ../sass/main.sass */
 .mt2 {
   margin-top: 2rem;
 }
 
-/* line 90, ../sass/main.sass */
+/* line 100, ../sass/main.sass */
 .details-ceremony-reception {
   background: #ffffff;
-  margin-top: 3rem;
   margin-bottom: 3rem;
   padding: 0 1rem 1rem 1rem;
   text-align: center;
   border: solid #fad956 10px;
   min-height: 36rem;
 }
-/* line 98, ../sass/main.sass */
+/* line 107, ../sass/main.sass */
 .details-ceremony-reception h4 {
   color: #3e51a3;
   margin-top: 0.7rem;
@@ -135,18 +149,18 @@ body {
   font-size: 3rem;
 }
 
-/* line 104, ../sass/main.sass */
+/* line 113, ../sass/main.sass */
 .no-p {
   padding: 0 !important;
 }
 
-/* line 107, ../sass/main.sass */
+/* line 116, ../sass/main.sass */
 .details-content {
   height: 300px;
   padding: 1rem;
 }
 
-/* line 127, ../sass/main.sass */
+/* line 136, ../sass/main.sass */
 .hero-bg {
   background-image: url("../img/hero-img.png");
   min-height: 570px;
@@ -154,7 +168,7 @@ body {
   background-size: cover;
 }
 
-/* line 134, ../sass/main.sass */
+/* line 143, ../sass/main.sass */
 .header-container #nav {
   position: fixed;
   width: 100%;
@@ -165,56 +179,56 @@ body {
   border-top: 1px solid #3D51A3;
 }
 
-/* line 143, ../sass/main.sass */
+/* line 152, ../sass/main.sass */
 .main-menu {
   margin-top: 1.3rem;
 }
-/* line 145, ../sass/main.sass */
+/* line 154, ../sass/main.sass */
 .main-menu i {
   color: royalblue;
 }
-/* line 148, ../sass/main.sass */
+/* line 157, ../sass/main.sass */
 .main-menu a span {
   font-size: 0.9rem;
   color: grey !important;
 }
 
-/* line 153, ../sass/main.sass */
+/* line 162, ../sass/main.sass */
 .logo-container img {
   margin: -3.3rem 0 2rem 0;
   position: absolute;
 }
 
-/* line 157, ../sass/main.sass */
+/* line 166, ../sass/main.sass */
 .you-are-invited {
   padding-top: 13rem;
 }
-/* line 159, ../sass/main.sass */
+/* line 168, ../sass/main.sass */
 .you-are-invited h1 {
   color: #ffffff;
   font-weight: bold;
   font-size: 3rem;
 }
-/* line 163, ../sass/main.sass */
+/* line 172, ../sass/main.sass */
 .you-are-invited p {
   color: #ffffff;
   font-weight: 300;
   font-size: 1.3rem;
 }
 
-/* line 169, ../sass/main.sass */
+/* line 178, ../sass/main.sass */
 .rsvp-cta p {
   padding: 1.4rem 0 0 0;
   border-bottom: dotted 2px #f1f0f0;
   color: #5c5c5c;
 }
 
-/* line 174, ../sass/main.sass */
+/* line 183, ../sass/main.sass */
 .rsvp-btn {
   background: #3e51a3;
 }
 
-/* line 177, ../sass/main.sass */
+/* line 186, ../sass/main.sass */
 .name {
   font-family: "Great Vibes", cursive;
   font-size: 2rem;
@@ -222,136 +236,164 @@ body {
   color: #3e51a3;
 }
 
-/* line 183, ../sass/main.sass */
+/* line 192, ../sass/main.sass */
 .about {
   padding: 0 1.5rem;
   font-weight: 300;
   color: #757575;
   text-align: left;
 }
-/* line 188, ../sass/main.sass */
+/* line 197, ../sass/main.sass */
 .about p {
   font-size: 1.2rem;
 }
 
-/* line 192, ../sass/main.sass */
+/* line 201, ../sass/main.sass */
 #nav li {
   font-size: 0.8rem;
   margin-top: 1.5rem;
   font-weight: 600;
 }
-/* line 196, ../sass/main.sass */
+/* line 205, ../sass/main.sass */
 #nav li a {
   color: #000000;
 }
 
-/* line 200, ../sass/main.sass */
+/* line 209, ../sass/main.sass */
 .main-heading h5 {
-  border-bottom: dotted 2px #f1f0f0;
+  border-bottom: dotted 1px #f1f0f0;
   font-weight: bold;
-  border-top: dotted 2px #f1f0f0;
-  margin: 2rem 0 4rem 0;
+  border-top: dotted 1px #f1f0f0;
+  margin: 2rem 0 2rem 0;
   padding: 1rem;
   font-size: 3rem;
   font-family: "Great Vibes", cursive;
 }
-/* line 208, ../sass/main.sass */
+/* line 217, ../sass/main.sass */
 .main-heading p {
   font-weight: bold;
 }
 
-/* line 212, ../sass/main.sass */
+/* line 221, ../sass/main.sass */
 .our-bridal-party {
   margin-bottom: 3rem;
 }
-/* line 214, ../sass/main.sass */
+/* line 223, ../sass/main.sass */
 .our-bridal-party h3 {
   font-size: 1.5em;
   font-weight: bold;
   font-family: "Great Vibes", cursive;
 }
-/* line 218, ../sass/main.sass */
+/* line 227, ../sass/main.sass */
 .our-bridal-party h6 {
   color: #3e51a3;
   font-weight: 500;
 }
-/* line 221, ../sass/main.sass */
+/* line 230, ../sass/main.sass */
 .our-bridal-party h5 {
   font-size: 0.8rem;
   font-weight: bold;
 }
-/* line 224, ../sass/main.sass */
+/* line 233, ../sass/main.sass */
 .our-bridal-party p {
   font-weight: 300;
   color: #757575;
   font-size: 1.2rem;
 }
 
-/* line 229, ../sass/main.sass */
+/* line 238, ../sass/main.sass */
 .the-couple {
   margin-top: 2.5rem;
 }
-/* line 231, ../sass/main.sass */
+/* line 240, ../sass/main.sass */
 .the-couple h4 {
   font-family: "Great Vibes", cursive;
+  padding: 1rem;
+  font-size: 2rem;
+  border-top: dotted 2px #ECECEC;
+  border-bottom: dotted 2px #ECECEC;
 }
-/* line 233, ../sass/main.sass */
+/* line 247, ../sass/main.sass */
 .the-couple i {
   color: #fad956 !important;
   font-size: 0.8rem;
   vertical-align: middle;
 }
-/* line 237, ../sass/main.sass */
+/* line 251, ../sass/main.sass */
 .the-couple img {
   margin-top: 1.5rem;
+  border-radius: 50%;
+  border: solid 10px #ECECEC;
 }
 
-/* line 240, ../sass/main.sass */
+/* line 256, ../sass/main.sass */
 .footer {
   background: black;
   padding: 1.3rem 0 0 0;
 }
-/* line 243, ../sass/main.sass */
+/* line 259, ../sass/main.sass */
 .footer p {
   font-size: 0.8rem;
   color: #9B9B9B;
 }
-/* line 246, ../sass/main.sass */
+/* line 262, ../sass/main.sass */
 .footer i {
   font-size: 0.3rem;
 }
 
-/* line 249, ../sass/main.sass */
+/* line 265, ../sass/main.sass */
 .boldy {
   font-weight: bold;
 }
 
-/* line 252, ../sass/main.sass */
+/* line 268, ../sass/main.sass */
 .our-story-img {
   margin: 0 0 2.5rem 0;
 }
 
-/* line 256, ../sass/main.sass */
+/* line 271, ../sass/main.sass */
+.white-txt {
+  color: #ffffff !important;
+}
+
+/* line 274, ../sass/main.sass */
+.no-border {
+  border: none !important;
+}
+
+/* line 277, ../sass/main.sass */
+.disqus_fix {
+  padding: 0 1.5rem;
+}
+
+/* line 281, ../sass/main.sass */
+.row.full-width {
+  max-width: 100%;
+  width: 100%;
+}
+
+/* line 287, ../sass/main.sass */
 #rsvp {
   background: #3e51a3;
   padding: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
 }
-/* line 260, ../sass/main.sass */
+/* line 291, ../sass/main.sass */
 #rsvp label {
   font-weight: 300;
   color: #ffffff;
 }
-
-/* line 264, ../sass/main.sass */
-.rb-btn {
-  background: #3e51a3 !important;
-  color: white !important;
-  border-radius: 3px !important;
-  border: solid 1px silver;
+/* line 294, ../sass/main.sass */
+#rsvp h6 {
+  color: #ffffff;
+  font-size: 1.4rem;
+}
+/* line 297, ../sass/main.sass */
+#rsvp p {
+  color: #FFFFFF;
 }
 
-/* line 270, ../sass/main.sass */
+/* line 301, ../sass/main.sass */
 .form-fields {
   border-radius: 3px !important;
   padding: 1rem !important;
@@ -359,55 +401,34 @@ body {
   min-height: 4rem;
 }
 
-/* line 276, ../sass/main.sass */
-.form-fields-textarea {
-  border-radius: 3px !important;
-  padding: 1rem !important;
-  margin-top: 0.5rem !important;
-  min-height: 5rem;
-}
-
-/* line 283, ../sass/main.sass */
-.guest-book-entry {
-  background: silver;
-  margin: 3rem 0;
-  padding-top: 1rem;
-  border-radius: 3px;
-}
-
-/* line 290, ../sass/main.sass */
-.guest-book-user-photo img {
-  width: 50%;
-}
-
-/* line 293, ../sass/main.sass */
+/* line 308, ../sass/main.sass */
 .dancing-shoes-heading {
   border-top: dotted 2px #7889d2;
 }
-/* line 295, ../sass/main.sass */
+/* line 310, ../sass/main.sass */
 .dancing-shoes-heading h2 {
   font-family: "Great Vibes", cursive;
   color: #ffffff;
   margin-top: 1rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
-/* line 301, ../sass/main.sass */
+/* line 316, ../sass/main.sass */
 .mb2 {
   margin-bottom: 2rem;
 }
 
-/* line 304, ../sass/main.sass */
+/* line 319, ../sass/main.sass */
 #map-canvas {
   width: 100%;
   height: 400px;
 }
-/* line 307, ../sass/main.sass */
+/* line 322, ../sass/main.sass */
 #map-canvas img {
   max-width: none;
 }
 
-/* line 312, ../sass/main.sass */
+/* line 327, ../sass/main.sass */
 #modalTitle {
   font-family: "Great Vibes", cursive;
   color: #3e51a3;
@@ -415,40 +436,39 @@ body {
   text-align: center;
 }
 
-/* line 318, ../sass/main.sass */
+/* line 333, ../sass/main.sass */
 .reveal-modal {
   max-width: 32.5rem;
 }
 
-/* line 321, ../sass/main.sass */
+/* line 336, ../sass/main.sass */
 .lead {
   text-align: center;
-  font-size: 0.8rem !important;
 }
 
-/* line 326, ../sass/main.sass */
+/* line 340, ../sass/main.sass */
 .boldy {
   font-weight: bold;
 }
 
-/* line 329, ../sass/main.sass */
+/* line 343, ../sass/main.sass */
 .highlight_field {
   border: 1px solid #E015D0;
   background: #E4CEE6;
 }
 
-/* line 334, ../sass/main.sass */
+/* line 348, ../sass/main.sass */
 #rsvp-response-msg.error {
   color: #F0A8EA;
 }
 
-/* line 337, ../sass/main.sass */
+/* line 351, ../sass/main.sass */
 .f-dropdown {
   width: 300px !important;
 }
 
 @media only screen and (max-width: 40em) {
-  /* line 345, ../sass/main.sass */
+  /* line 359, ../sass/main.sass */
   .logo-container img {
     margin: -3.3rem 0 2rem 0;
     position: absolute;
@@ -457,37 +477,37 @@ body {
     top: -1rem;
   }
 
-  /* line 353, ../sass/main.sass */
+  /* line 367, ../sass/main.sass */
   .header-container #nav {
     width: 10%;
     border-right: solid 1px #3e51a3;
     margin-right: 2rem;
   }
 
-  /* line 358, ../sass/main.sass */
+  /* line 372, ../sass/main.sass */
   .you-are-invited {
     padding-top: 5rem;
   }
-  /* line 360, ../sass/main.sass */
+  /* line 374, ../sass/main.sass */
   .you-are-invited h1 {
     font-size: 2rem;
   }
-  /* line 362, ../sass/main.sass */
+  /* line 376, ../sass/main.sass */
   .you-are-invited p {
     font-size: 0.9rem;
   }
 
-  /* line 365, ../sass/main.sass */
+  /* line 379, ../sass/main.sass */
   .hero-bg {
     min-height: 270px;
     padding-top: 5rem;
   }
 
-  /* line 370, ../sass/main.sass */
+  /* line 384, ../sass/main.sass */
   .hero-into-text h1 {
     font-size: 2.5rem;
   }
-  /* line 372, ../sass/main.sass */
+  /* line 386, ../sass/main.sass */
   .hero-into-text p {
     font-size: 0.9rem;
   }

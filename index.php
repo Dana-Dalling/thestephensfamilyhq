@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome to our website: Dana Dalling & Fabion Stephens Wedding </title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -11,21 +12,28 @@
 </head>
 <body>
 <div id="site-header">
-    <div class="row">
-        <div class="small-12 medium-6 large-6 columns">
-           <h2>D & F</h2>
-           <p>June 28, 2015</p>
+    <nav>
+        <div class="row">
+            <div class="small-12 medium-6 large-6 columns">
+                <div id="nav-logo">
+                    <a href="index.php">
+                        <img src="img/logo.png" alt="Dana and Fabion">
+                        <p>June 28, 2015</p>
+                    </a>
+                </div>
+            </div>
+            <div class="small-12 medium-6 large-6 columns mt2">
+                <ul class="inline-list">
+                    <li><a href="#rsvp" rel="rsvp-region" class="m-header--menu-scroll-to">RSVP</a></li>
+                    <li><a href="#details" rel="details-region" class="m-header--menu-scroll-to">Details of our day</a></li>
+                    <li><a href="#guestbook" rel="guestbook-region" class="m-header--menu-scroll-to">GuestBook</a></li>
+                    <li><a href="#venue" rel="venue-region" class="m-header--menu-scroll-to">Venue</a></li>
+                    <li><a href="javascript:void(0)" data-reveal-id="myModal">Suggest Songs</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="small-12 medium-6 large-6 columns mt2">
-            <ul class="inline-list">
-                <li><a href="#rsvp" rel="rsvp-region" class="m-header--menu-scroll-to">RSVP</a></li>
-                <li><a href="#details" rel="details-region" class="m-header--menu-scroll-to">Where & When</a></li>
-                <li><a href="#venue" rel="venue-region" class="m-header--menu-scroll-to">Venue</a></li>
-                <li><a href="javascript:void(0)" data-reveal-id="myModal">Suggest Songs</a></li>
-                <li><a href="#guestbook" rel="guestbook-region" class="m-header--menu-scroll-to">Guest Book</a></li>
-            </ul>
-        </div>
-    </div>
+
+    </nav>
 </div>
 <div id="top-hero">
     <div class="row">
@@ -34,8 +42,9 @@
              <h1>
                 You are invited to our Unplugged Wedding!<br>
             </h1>
-                <i class="fa fa-heart" style="color: #fad956; font-size: 3rem; margin: 2rem 0"></i>
-
+                <span>
+                    <img src="img/heart-lines.png" alt="heart ">
+                </span>
                 <p>
               Join us on June 28, 2015 at the beautiful Struan Castle Garden,
             <br>Stony Hill, St. Andrew.
@@ -44,11 +53,11 @@
 </div>
 </div>
 </div>
-<div class="count-down-container" ">
+<div class="count-down-container">
 <div class="row">
     <div class="small-12 small-centered medium-8 medium-centered large-8 large-centered columns">
         <ul class="dana-fabion-wedding-countdown small-block-grid-2 medium-block-grid-4 large-block-grid-4"
-            id="1435467600">
+            id="1435464000">
             <li>
                 <span class="timer-circle">
                     <span class="time-left--days">0</span>
@@ -90,7 +99,7 @@
                 <i class="fa fa-heart"></i>
                 <i class="fa fa-heart"></i>
             </h4>
-            <img src="img/dana.png">
+            <img src="img/dana.png" alt="the bride Dana Dalling">
             <div class="name">
                 Dana Deandra Dalling
             </div>
@@ -111,8 +120,8 @@
                     He greeted me with a hug and all I felt were butterflies.
                 </p>
                 <p>
-                    He's funny, caring, protective. easy to talk to and a great mentor. I'm looking forward to building our
-                    future and old with him by my side.
+                    He's funny, caring, protective, easy to talk to and a great mentor. I'm looking forward to building our
+                    future and grow old with him by my side.
                 </p>
 
 
@@ -128,18 +137,33 @@
                 <i class="fa fa-heart"></i>
                 <i class="fa fa-heart"></i>
             </h4>
-            <img src="img/fabion.png">
+            <img src="img/fabion.png" alt="the groom Fabion">
             <div class="name">
                 Fabion O'brian Stephens
             </div>
-            <p class="about">Maecenas tempus, tellus eget condimentum rhoncus,
-                sem quam semper libero, sit amet adipiscing sem neque
-                odio e ante tincidunt tempus. Donec vitae sapien
-                ut libero venenatis faucibus.</p>
+            <div class="about">
+                <p>
+                    It felt like we've met and known each other long before officially meeting face to face. There
+                    is this connection that got me hooked into knowing more about Dana. With every chance I get, I
+                    would text or call to say "hi" and knowing she is o.k.
+                </p>
+                <p>
+                    God knows I pray to the Heavens to keep this angel safe so I can meet the woman behind the texts,
+                    voice and laughter.
+                    My prayers were answered and we finally met after a year (thumbs up God). Love at first sight? You could say so but more
+                    like love at first text :)
+                </p>
+                <p>
+                  Ten (10) years has passed faster than saying 'I love you' since our path crossed and that path is taking us
+                  down the isle in a few weeks to seal our bond.
+                </p>
+                <p>
+                    Forever I pray, I will continue to love, cherish and grow old together with my best friend, love and
+                    partner in crime.
+                </p>
+            </div>
+
         </div>
-     <!--<div class="small-12 medium-12 large-12 columns text-center ">
-            <img src="img/read-our-story-cta.png" class="our-story-img">
-        </div> -->
     </div>
     <div class="row">
         <div class="small-12 medium-12 large-12 columns text-center main-heading">
@@ -149,25 +173,25 @@
     <div class="row ">
         <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-4 text-center our-bridal-party mb3">
             <li>
-                <img src="img/latoya.png">
+                <img src="img/latoya.png" alt="maid of honor Latoya">
                 <h3>Latoya Dalling</h3>
                 <h6>Maid of Honor</h6>
                 <p> Sister of the Bride</p>
             </li>
            <li>
-               <img src="img/iana.png">
+               <img src="img/iana.png" alt=" bridesmaid Iana">
                <h3>Iana Cross</h3>
                <h6>Bridesmaid</h6>
                <p> Sister of the Bride</p>
            </li>
             <li>
-                <img src="img/kwami.png">
+                <img src="img/kwami.png" alt="best man Kwami"  >
                 <h3>Kwami Roberts</h3>
                 <h6>Best Man</h6>
                 <p> Friend of the Groom</p>
             </li>
             <li>
-                <img src="img/oliver.png">
+                <img src="img/oliver.png" alt="groomsman Oliver">
                 <h3>Oliver Stephens</h3>
                 <h6>Groomsman</h6>
                 <p> Brother of the Groom</p>
@@ -177,25 +201,25 @@
     <div class="row" id="rsvp-region">
         <div class="row">
             <div class="small-12 medium-12 large-12 columns text-center main-heading">
-                <h5>Are you attending?  </h5>
-                <p>PLEASE NOTE: Invitations are only extended to those that the invitation was addressed to. </br>Thank you for understanding.</p>
-                <p>Please RSVP by May 31st, 2015.</p>
-
+                <h5>Will you be joining us?</h5>
+                <p>PLEASE NOTE: Invitations are only extended to those that the invitation was addressed to. <br>Thank you for understanding.</p>
             </div>
         </div>
             <div class="small-12 small-centered medium-6 medium-centered large-6 large-centered columns" id="rsvp">
                 <div id="thank-you-note"></div>
+                <h6>We can’t wait to celebrate with you!</h6>
+                <p class="boldy">Please RSVP by May 31st, 2015.</p>
                 <form id="rsvp-form" action="inc/validate_send_rsvp.php" method="POST" class="m-async-form">
                     <label>
-                        <div id="rsvp-response-msg">First name</div>
+                        <span id="rsvp-response-msg">First name</span>
                         <input type="text" id="rsvp_code" name="rsvp_code" placeholder="John" class="form-fields" />
                     </label>
                     <label>
-                        <div id="rsvp-response-msg">Last name</div>
+                        <span id="rsvp-response-msg">Last name</span>
                         <input type="text" id="rsvp_code" name="rsvp_code" placeholder="Doe" class="form-fields" />
                     </label>
                     <label>
-                        <div>Which events will you be attending</div>
+                        <span>Which events will you be attending</span>
                         <select name="rsvped_for" class="form-fields">
                             <option value="all">All events</option>
                             <option value="not-attending">Not Attending</option>
@@ -205,7 +229,7 @@
                     </label>
                     <div>
                         <a href="#send-rsvp" id="submit-rsvp-form">
-                            <img src="img/rsvp-btn.png" class="mb2">
+                            <img src="img/rsvp-btn.png" class="mb2" alt="RSVP button">
                         </a>
                     </div>
                 </form>
@@ -214,19 +238,17 @@
                 </div>
             </div>
     </div>
-
-
-<div class="row" id="details-region">
-    <div class="row">
-        <div class="small-12 medium-12 large-12 columns text-center main-heading">
-            <h5>Details of our day</h5>
+<div class="details-container">
+    <div class="row" id="details-region">
+        <div class="row">
+            <div class="small-12 medium-12 large-12 columns text-center main-heading">
+                <h5 class="white-txt no-border">Details of our day</h5>
+            </div>
         </div>
     </div>
-</div>
-<div class="details-container">
     <div class="row ">
-        <div class="small-12 medium-6 large-6 large-centered columns details-ceremony-reception">
-            <img src="img/flower.png">
+        <div class="small-12 small-centered medium-6 medium-centered large-6 large-centered columns details-ceremony-reception">
+            <img src="img/flower.png" alt="flower">
             <div class="details-content">
                 <h4>Ceremony</h4>
                 <p>
@@ -234,10 +256,36 @@
                 </p>
                 <h4>Reception</h4>
                 <p>
-                    Our reception will start promptly at 5:30p.m.
+                    Our reception will start promptly at 5:50p.m.
                 </p>
                 <h6 class="boldy">Location: </h6>
                 <p>Struan Castle Garden, Airy Castle Road,<br> Stony Hill, Saint Andrew</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row" id="guestbook-region">
+    <div class="row">
+        <div class="small-12 medium-12 large-12 columns text-center main-heading">
+            <h5>Guestbook</h5>
+        </div>
+        <div class="row">
+            <div class="small-12 columns">
+                <div class="disqus_fix">
+                    <div id="disqus_thread"></div>
+                    <script type="text/javascript">
+                        /* * * CONFIGURATION VARIABLES * * */
+                        var disqus_shortname = 'thestephenshq';
+
+                        /* * * DON'T EDIT BELOW THIS LINE * * */
+                        (function() {
+                            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                        })();
+                    </script>
+                    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+                </div>
             </div>
         </div>
     </div>
@@ -249,33 +297,27 @@
             </h5>
         </div>
     </div>
-
-<div class="small-12 columns">
-    <div id="map-canvas"></div>
-
-    <ul class="small-block-grid-4">
-        <li class="no-p">
-            <img src="img/straun1.jpg">
-        </li>
-        <li class="no-p">
-            <img src="img/straun2.JPG">
-        </li>
-        <li class="no-p">
-            <img src="img/straun3.jpg">
-        </li>
-        <li class="no-p">
-            <img src="img/straun4.jpg">
-        </li>
-    </ul>
-</div>
-
-    <div class="row" id="guestbook-region">
-        <div class="row">
-            <div class="small-12 medium-12 large-12 columns text-center main-heading">
-                <h5>Guestbook</h5>
-            </div>
-        </div>
+<div class="row full-width">
+    <div class="small-12 columns">
+        <ul class="small-block-grid-4">
+            <li class="no-p">
+                <img src="img/straun1.jpg" alt="photo of straun castle garden">
+            </li>
+            <li class="no-p">
+                <img src="img/straun2.JPG" alt="photo of straun castle garden">
+            </li>
+            <li class="no-p">
+                <img src="img/straun3.jpg" alt="photo of straun castle garden">
+            </li>
+            <li class="no-p">
+                <img src="img/straun4.jpg" alt="photo of straun castle garden">
+            </li>
+        </ul>
     </div>
+</div>
+<div id="map-canvas"></div>
+
+
     <div class="footer">
         <div class="row">
             <div class="small-12 small-centered medium-6 medium-centered large-6 large-centered columns">
@@ -298,19 +340,20 @@
             <h2 id="modalTitle">Suggest Wedding</br> Party Song</h2>
             <p class="lead">We cant wait to hear what you suggest!</p>
             <div class="small-12 small-centered medium-9 medium-centered large-9 large-centered columns">
-                <form>
+                <form id="suggest-song">
                     <label class="boldy">Your Name
-                        <input type="text" placeholder="eg. John Brown" />
+                        <input type="text" name="name" placeholder="eg. John Brown" />
                     </label>
                     <label>Song Title
-                        <input type="text" placeholder="eg. Marry You" />
+                        <input type="text" name="song_title" placeholder="eg. Marry You" />
                     </label>
                     <label>Artist/Band
-                        <input type="text" placeholder="eg. Bruno Mars" />
+                        <input type="text" name="artist" placeholder="eg. Bruno Mars" />
                     </label>
-                    <a href="#" class="button radius expand rb-btn">Suggest Song</a>
+                    <button class="radius expand rb-btn">
+                        Suggest Song
+                    </button>
                 </form>
-
             </div>
             <a class="close-reveal-modal" aria-label="Close">&#215;</a>
         </div>
