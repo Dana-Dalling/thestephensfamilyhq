@@ -202,7 +202,13 @@
         <div class="row">
             <div class="small-12 medium-12 large-12 columns text-center main-heading">
                 <h5>Will you be joining us?</h5>
-                <p>PLEASE NOTE: Invitations are only extended to those that the invitation was addressed to. <br>Thank you for understanding.</p>
+                <div class="row">
+                    <div class="small-12 small-centered medium-5 medium-centered large-5 columns large-centered">
+                        <p>PLEASE NOTE: Invitations are only extended to those that the invitation
+                            was addressed to. <br>Thank you for understanding.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
             <div class="small-12 small-centered medium-6 medium-centered large-6 large-centered columns" id="rsvp">
@@ -292,9 +298,10 @@
 </div>
     <div class="row" id="venue-region">
         <div class="small-12 medium-12 large-12 columns text-center main-heading">
-            <h5>The Venue<br/>
-            Struan Castle Garden
-            </h5>
+
+            <h5>
+                <span class="the-venue-txt">The Venue</br></span>
+                Struan Castle Garden</h5>
         </div>
     </div>
 <div class="row full-width">

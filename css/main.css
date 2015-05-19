@@ -15,37 +15,37 @@ h1, h2, h3, h4, h5, h6 {
 .inline-list {
   margin: 0 auto 0 auto !important;
 }
-/* line 14, ../sass/main.sass */
+/* line 13, ../sass/main.sass */
 .inline-list a {
   color: grey;
   font-size: 1rem !important;
   font-weight: 200;
 }
-/* line 18, ../sass/main.sass */
+/* line 17, ../sass/main.sass */
 .inline-list a:hover {
   color: #3e51a3;
   border-bottom: dotted 2px #fad956;
 }
 
-/* line 23, ../sass/main.sass */
+/* line 22, ../sass/main.sass */
 .hero-into-text h1 {
   font-size: 5rem;
   color: #ffffff !important;
   margin-top: 13rem;
   font-family: "Great Vibes", cursive;
 }
-/* line 28, ../sass/main.sass */
+/* line 27, ../sass/main.sass */
 .hero-into-text p {
   color: #ffffff;
   font-size: 1.5rem;
   font-weight: 200;
 }
-/* line 32, ../sass/main.sass */
+/* line 31, ../sass/main.sass */
 .hero-into-text img {
   margin: 2rem 0;
 }
 
-/* line 36, ../sass/main.sass */
+/* line 35, ../sass/main.sass */
 .timer-circle {
   display: block;
   height: 7em;
@@ -54,38 +54,38 @@ h1, h2, h3, h4, h5, h6 {
   background: #ffffff;
   border-radius: 4px;
 }
-/* line 43, ../sass/main.sass */
+/* line 42, ../sass/main.sass */
 .timer-circle span {
   display: block;
   text-align: center;
 }
-/* line 46, ../sass/main.sass */
+/* line 45, ../sass/main.sass */
 .timer-circle span:first-child {
   padding-top: 0.3em;
   font-size: 2.5rem;
 }
 
-/* line 50, ../sass/main.sass */
+/* line 49, ../sass/main.sass */
 .count-down-container {
   background: #3e51a3;
   padding: 2rem;
   margin-bottom: 2rem;
 }
-/* line 54, ../sass/main.sass */
+/* line 53, ../sass/main.sass */
 .count-down-container h2 {
   color: #fff;
   margin-top: 1.8rem;
   text-transform: capitalize;
 }
 
-/* line 59, ../sass/main.sass */
+/* line 58, ../sass/main.sass */
 .until-id-txt {
   font-family: "Great Vibes", cursive;
   font-size: 1.8rem;
   color: #fff !important;
 }
 
-/* line 65, ../sass/main.sass */
+/* line 64, ../sass/main.sass */
 #site-header {
   background: #ffffff !important;
   padding: 1rem 0;
@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 100;
   box-shadow: 0 2px 2px #cbcbcb;
 }
-/* line 74, ../sass/main.sass */
+/* line 73, ../sass/main.sass */
 #site-header h2 {
   font-family: "Great Vibes", cursive;
   font-size: 2.5rem;
@@ -104,14 +104,16 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   margin: 0;
 }
-/* line 80, ../sass/main.sass */
+/* line 79, ../sass/main.sass */
 #site-header p {
   margin: 0;
   padding: 0;
   font-weight: 200;
+  color: #818181;
+  margin-top: 0.7rem;
 }
 
-/* line 85, ../sass/main.sass */
+/* line 87, ../sass/main.sass */
 #top-hero {
   background-image: url("../img/hero-img.jpg");
   width: 100%;
@@ -120,19 +122,19 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
 }
 
-/* line 92, ../sass/main.sass */
+/* line 94, ../sass/main.sass */
 .details-container {
   background: url("https://download.unsplash.com/43/unsplash_522b9cc0386f1_1.jpg");
   margin-bottom: 3rem;
   background-size: cover;
 }
 
-/* line 97, ../sass/main.sass */
+/* line 99, ../sass/main.sass */
 .mt2 {
   margin-top: 2rem;
 }
 
-/* line 100, ../sass/main.sass */
+/* line 102, ../sass/main.sass */
 .details-ceremony-reception {
   background: #ffffff;
   margin-bottom: 3rem;
@@ -141,7 +143,7 @@ h1, h2, h3, h4, h5, h6 {
   border: solid #fad956 10px;
   min-height: 36rem;
 }
-/* line 107, ../sass/main.sass */
+/* line 109, ../sass/main.sass */
 .details-ceremony-reception h4 {
   color: #3e51a3;
   margin-top: 0.7rem;
@@ -149,18 +151,18 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 3rem;
 }
 
-/* line 113, ../sass/main.sass */
+/* line 115, ../sass/main.sass */
 .no-p {
   padding: 0 !important;
 }
 
-/* line 116, ../sass/main.sass */
+/* line 118, ../sass/main.sass */
 .details-content {
   height: 300px;
   padding: 1rem;
 }
 
-/* line 136, ../sass/main.sass */
+/* line 138, ../sass/main.sass */
 .hero-bg {
   background-image: url("../img/hero-img.png");
   min-height: 570px;
@@ -168,7 +170,7 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
 }
 
-/* line 143, ../sass/main.sass */
+/* line 145, ../sass/main.sass */
 .header-container #nav {
   position: fixed;
   width: 100%;
@@ -179,56 +181,56 @@ h1, h2, h3, h4, h5, h6 {
   border-top: 1px solid #3D51A3;
 }
 
-/* line 152, ../sass/main.sass */
+/* line 154, ../sass/main.sass */
 .main-menu {
   margin-top: 1.3rem;
 }
-/* line 154, ../sass/main.sass */
+/* line 156, ../sass/main.sass */
 .main-menu i {
   color: royalblue;
 }
-/* line 157, ../sass/main.sass */
+/* line 159, ../sass/main.sass */
 .main-menu a span {
   font-size: 0.9rem;
   color: grey !important;
 }
 
-/* line 162, ../sass/main.sass */
+/* line 164, ../sass/main.sass */
 .logo-container img {
   margin: -3.3rem 0 2rem 0;
   position: absolute;
 }
 
-/* line 166, ../sass/main.sass */
+/* line 168, ../sass/main.sass */
 .you-are-invited {
   padding-top: 13rem;
 }
-/* line 168, ../sass/main.sass */
+/* line 170, ../sass/main.sass */
 .you-are-invited h1 {
   color: #ffffff;
   font-weight: bold;
   font-size: 3rem;
 }
-/* line 172, ../sass/main.sass */
+/* line 174, ../sass/main.sass */
 .you-are-invited p {
   color: #ffffff;
   font-weight: 300;
   font-size: 1.3rem;
 }
 
-/* line 178, ../sass/main.sass */
+/* line 180, ../sass/main.sass */
 .rsvp-cta p {
   padding: 1.4rem 0 0 0;
   border-bottom: dotted 2px #f1f0f0;
   color: #5c5c5c;
 }
 
-/* line 183, ../sass/main.sass */
+/* line 185, ../sass/main.sass */
 .rsvp-btn {
   background: #3e51a3;
 }
 
-/* line 186, ../sass/main.sass */
+/* line 188, ../sass/main.sass */
 .name {
   font-family: "Great Vibes", cursive;
   font-size: 2rem;
@@ -236,30 +238,30 @@ h1, h2, h3, h4, h5, h6 {
   color: #3e51a3;
 }
 
-/* line 192, ../sass/main.sass */
+/* line 194, ../sass/main.sass */
 .about {
   padding: 0 1.5rem;
   font-weight: 300;
   color: #757575;
   text-align: left;
 }
-/* line 197, ../sass/main.sass */
+/* line 199, ../sass/main.sass */
 .about p {
   font-size: 1.2rem;
 }
 
-/* line 201, ../sass/main.sass */
+/* line 203, ../sass/main.sass */
 #nav li {
   font-size: 0.8rem;
   margin-top: 1.5rem;
   font-weight: 600;
 }
-/* line 205, ../sass/main.sass */
+/* line 207, ../sass/main.sass */
 #nav li a {
   color: #000000;
 }
 
-/* line 209, ../sass/main.sass */
+/* line 211, ../sass/main.sass */
 .main-heading h5 {
   border-bottom: dotted 1px #f1f0f0;
   font-weight: bold;
@@ -269,43 +271,43 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 3rem;
   font-family: "Great Vibes", cursive;
 }
-/* line 217, ../sass/main.sass */
+/* line 219, ../sass/main.sass */
 .main-heading p {
   font-weight: bold;
 }
 
-/* line 221, ../sass/main.sass */
+/* line 223, ../sass/main.sass */
 .our-bridal-party {
   margin-bottom: 3rem;
 }
-/* line 223, ../sass/main.sass */
+/* line 225, ../sass/main.sass */
 .our-bridal-party h3 {
   font-size: 1.5em;
   font-weight: bold;
   font-family: "Great Vibes", cursive;
 }
-/* line 227, ../sass/main.sass */
+/* line 229, ../sass/main.sass */
 .our-bridal-party h6 {
   color: #3e51a3;
   font-weight: 500;
 }
-/* line 230, ../sass/main.sass */
+/* line 232, ../sass/main.sass */
 .our-bridal-party h5 {
   font-size: 0.8rem;
   font-weight: bold;
 }
-/* line 233, ../sass/main.sass */
+/* line 235, ../sass/main.sass */
 .our-bridal-party p {
   font-weight: 300;
   color: #757575;
   font-size: 1.2rem;
 }
 
-/* line 238, ../sass/main.sass */
+/* line 240, ../sass/main.sass */
 .the-couple {
   margin-top: 2.5rem;
 }
-/* line 240, ../sass/main.sass */
+/* line 242, ../sass/main.sass */
 .the-couple h4 {
   font-family: "Great Vibes", cursive;
   padding: 1rem;
@@ -313,87 +315,87 @@ h1, h2, h3, h4, h5, h6 {
   border-top: dotted 2px #ECECEC;
   border-bottom: dotted 2px #ECECEC;
 }
-/* line 247, ../sass/main.sass */
+/* line 249, ../sass/main.sass */
 .the-couple i {
   color: #fad956 !important;
   font-size: 0.8rem;
   vertical-align: middle;
 }
-/* line 251, ../sass/main.sass */
+/* line 253, ../sass/main.sass */
 .the-couple img {
   margin-top: 1.5rem;
   border-radius: 50%;
   border: solid 10px #ECECEC;
 }
 
-/* line 256, ../sass/main.sass */
+/* line 258, ../sass/main.sass */
 .footer {
   background: black;
   padding: 1.3rem 0 0 0;
 }
-/* line 259, ../sass/main.sass */
+/* line 261, ../sass/main.sass */
 .footer p {
   font-size: 0.8rem;
   color: #9B9B9B;
 }
-/* line 262, ../sass/main.sass */
+/* line 264, ../sass/main.sass */
 .footer i {
   font-size: 0.3rem;
 }
 
-/* line 265, ../sass/main.sass */
+/* line 267, ../sass/main.sass */
 .boldy {
   font-weight: bold;
 }
 
-/* line 268, ../sass/main.sass */
+/* line 270, ../sass/main.sass */
 .our-story-img {
   margin: 0 0 2.5rem 0;
 }
 
-/* line 271, ../sass/main.sass */
+/* line 273, ../sass/main.sass */
 .white-txt {
   color: #ffffff !important;
 }
 
-/* line 274, ../sass/main.sass */
+/* line 276, ../sass/main.sass */
 .no-border {
   border: none !important;
 }
 
-/* line 277, ../sass/main.sass */
+/* line 279, ../sass/main.sass */
 .disqus_fix {
   padding: 0 1.5rem;
 }
 
-/* line 281, ../sass/main.sass */
+/* line 283, ../sass/main.sass */
 .row.full-width {
   max-width: 100%;
   width: 100%;
 }
 
-/* line 287, ../sass/main.sass */
+/* line 289, ../sass/main.sass */
 #rsvp {
   background: #3e51a3;
   padding: 2rem;
   margin-bottom: 5rem;
 }
-/* line 291, ../sass/main.sass */
+/* line 293, ../sass/main.sass */
 #rsvp label {
   font-weight: 300;
   color: #ffffff;
 }
-/* line 294, ../sass/main.sass */
+/* line 296, ../sass/main.sass */
 #rsvp h6 {
   color: #ffffff;
   font-size: 1.4rem;
 }
-/* line 297, ../sass/main.sass */
+/* line 299, ../sass/main.sass */
 #rsvp p {
   color: #FFFFFF;
 }
 
-/* line 301, ../sass/main.sass */
+/* line 303, ../sass/main.sass */
 .form-fields {
   border-radius: 3px !important;
   padding: 1rem !important;
@@ -401,11 +403,11 @@ h1, h2, h3, h4, h5, h6 {
   min-height: 4rem;
 }
 
-/* line 308, ../sass/main.sass */
+/* line 310, ../sass/main.sass */
 .dancing-shoes-heading {
   border-top: dotted 2px #7889d2;
 }
-/* line 310, ../sass/main.sass */
+/* line 312, ../sass/main.sass */
 .dancing-shoes-heading h2 {
   font-family: "Great Vibes", cursive;
   color: #ffffff;
@@ -413,22 +415,22 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1.5rem;
 }
 
-/* line 316, ../sass/main.sass */
+/* line 318, ../sass/main.sass */
 .mb2 {
   margin-bottom: 2rem;
 }
 
-/* line 319, ../sass/main.sass */
+/* line 321, ../sass/main.sass */
 #map-canvas {
   width: 100%;
   height: 400px;
 }
-/* line 322, ../sass/main.sass */
+/* line 324, ../sass/main.sass */
 #map-canvas img {
   max-width: none;
 }
 
-/* line 327, ../sass/main.sass */
+/* line 329, ../sass/main.sass */
 #modalTitle {
   font-family: "Great Vibes", cursive;
   color: #3e51a3;
@@ -436,39 +438,39 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
-/* line 333, ../sass/main.sass */
+/* line 335, ../sass/main.sass */
 .reveal-modal {
   max-width: 32.5rem;
 }
 
-/* line 336, ../sass/main.sass */
+/* line 338, ../sass/main.sass */
 .lead {
   text-align: center;
 }
 
-/* line 340, ../sass/main.sass */
+/* line 342, ../sass/main.sass */
 .boldy {
   font-weight: bold;
 }
 
-/* line 343, ../sass/main.sass */
+/* line 345, ../sass/main.sass */
 .highlight_field {
   border: 1px solid #E015D0;
   background: #E4CEE6;
 }
 
-/* line 348, ../sass/main.sass */
+/* line 350, ../sass/main.sass */
 #rsvp-response-msg.error {
   color: #F0A8EA;
 }
 
-/* line 351, ../sass/main.sass */
+/* line 353, ../sass/main.sass */
 .f-dropdown {
   width: 300px !important;
 }
 
 @media only screen and (max-width: 40em) {
-  /* line 359, ../sass/main.sass */
+  /* line 361, ../sass/main.sass */
   .logo-container img {
     margin: -3.3rem 0 2rem 0;
     position: absolute;
@@ -477,38 +479,45 @@ h1, h2, h3, h4, h5, h6 {
     top: -1rem;
   }
 
-  /* line 367, ../sass/main.sass */
+  /* line 369, ../sass/main.sass */
   .header-container #nav {
     width: 10%;
     border-right: solid 1px #3e51a3;
     margin-right: 2rem;
   }
 
-  /* line 372, ../sass/main.sass */
+  /* line 374, ../sass/main.sass */
   .you-are-invited {
     padding-top: 5rem;
   }
-  /* line 374, ../sass/main.sass */
+  /* line 376, ../sass/main.sass */
   .you-are-invited h1 {
     font-size: 2rem;
   }
-  /* line 376, ../sass/main.sass */
+  /* line 378, ../sass/main.sass */
   .you-are-invited p {
     font-size: 0.9rem;
   }
 
-  /* line 379, ../sass/main.sass */
+  /* line 381, ../sass/main.sass */
   .hero-bg {
     min-height: 270px;
     padding-top: 5rem;
   }
 
-  /* line 384, ../sass/main.sass */
+  /* line 386, ../sass/main.sass */
   .hero-into-text h1 {
     font-size: 2.5rem;
   }
-  /* line 386, ../sass/main.sass */
+  /* line 388, ../sass/main.sass */
   .hero-into-text p {
     font-size: 0.9rem;
   }
+}
+/* line 391, ../sass/main.sass */
+.the-venue-txt {
+  font-family: "Josefin Sans", sans-serif !important;
+  font-size: 0.35em !important;
+  color: #757575;
+  font-weight: normal !important;
 }

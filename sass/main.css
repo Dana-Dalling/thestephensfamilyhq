@@ -1,21 +1,33 @@
 @import url(http://fonts.googleapis.com/css?family=Poiret+One|Lily+Script+One|Lobster|Great+Vibes|Pacifico|Dancing+Script:400,700|Lobster+Two:400,700|Satisfy|Rochester|Sacramento|family=Great+Vibes|Pinyon+Script);
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:300,400);
+body {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.2rem !important; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Josefin Sans", sans-serif; }
+
 .inline-list {
   margin: 0 auto 0 auto !important; }
-  .inline-list ul a {
+  .inline-list a {
     color: grey;
-    font-size: 0.8rem !important;
+    font-size: 1rem !important;
     font-weight: 200; }
-    .inline-list ul a:hover {
-      color: royalblue; }
+    .inline-list a:hover {
+      color: #3e51a3;
+      border-bottom: dotted 2px #fad956; }
 
 .hero-into-text h1 {
   font-size: 5rem;
   color: #ffffff !important;
-  margin-top: 2rem;
-  font-family: "Rochester", cursive; }
+  margin-top: 13rem;
+  font-family: "Great Vibes", cursive; }
 .hero-into-text p {
   color: #ffffff;
+  font-size: 1.5rem;
   font-weight: 200; }
+.hero-into-text img {
+  margin: 2rem 0; }
 
 .timer-circle {
   display: block;
@@ -41,14 +53,19 @@
     text-transform: capitalize; }
 
 .until-id-txt {
-  font-family: "Rochester", cursive;
+  font-family: "Great Vibes", cursive;
   font-size: 1.8rem;
   color: #fff !important; }
 
 #site-header {
   background: #ffffff !important;
-  padding: 2rem 0;
-  width: 100%; }
+  padding: 1rem 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  box-shadow: 0 2px 2px #cbcbcb; }
   #site-header h2 {
     font-family: "Great Vibes", cursive;
     font-size: 2.5rem;
@@ -58,7 +75,9 @@
   #site-header p {
     margin: 0;
     padding: 0;
-    font-weight: 200; }
+    font-weight: 200;
+    color: #818181;
+    margin-top: 0.7rem; }
 
 #top-hero {
   background-image: url("../img/hero-img.jpg");
@@ -68,22 +87,32 @@
   background-size: cover; }
 
 .details-container {
-  background: url("https://download.unsplash.com/11/sky-rose.jpg");
-  margin-bottom: 3rem; }
+  background: url("https://download.unsplash.com/43/unsplash_522b9cc0386f1_1.jpg");
+  margin-bottom: 3rem;
+  background-size: cover; }
 
 .mt2 {
   margin-top: 2rem; }
 
-.details-ceremony {
-  background: #3e51a3;
-  margin-top: 3rem;
+.details-ceremony-reception {
+  background: #ffffff;
   margin-bottom: 3rem;
-  padding: 1rem;
-  border-radius: 3px; }
+  padding: 0 1rem 1rem 1rem;
+  text-align: center;
+  border: solid #fad956 10px;
+  min-height: 36rem; }
+  .details-ceremony-reception h4 {
+    color: #3e51a3;
+    margin-top: 0.7rem;
+    font-family: "Great Vibes", cursive;
+    font-size: 3rem; }
+
+.no-p {
+  padding: 0 !important; }
 
 .details-content {
-  border: solid grey 1px;
-  height: 300px; }
+  height: 300px;
+  padding: 1rem; }
 
 .hero-bg {
   background-image: url("../img/hero-img.png");
@@ -140,7 +169,10 @@
 .about {
   padding: 0 1.5rem;
   font-weight: 300;
-  color: #757575; }
+  color: #757575;
+  text-align: left; }
+  .about p {
+    font-size: 1.2rem; }
 
 #nav li {
   font-size: 0.8rem;
@@ -150,13 +182,13 @@
     color: #000000; }
 
 .main-heading h5 {
-  border-bottom: dotted 2px #f1f0f0;
+  border-bottom: dotted 1px #f1f0f0;
   font-weight: bold;
-  border-top: dotted 2px #f1f0f0;
-  margin: 2rem 0 4rem 0;
+  border-top: dotted 1px #f1f0f0;
+  margin: 2rem 0 2rem 0;
   padding: 1rem;
-  font-size: 2rem;
-  font-family: "Lobster", cursive; }
+  font-size: 3rem;
+  font-family: "Great Vibes", cursive; }
 .main-heading p {
   font-weight: bold; }
 
@@ -165,7 +197,7 @@
   .our-bridal-party h3 {
     font-size: 1.5em;
     font-weight: bold;
-    font-family: "Rochester", cursive; }
+    font-family: "Great Vibes", cursive; }
   .our-bridal-party h6 {
     color: #3e51a3;
     font-weight: 500; }
@@ -175,18 +207,24 @@
   .our-bridal-party p {
     font-weight: 300;
     color: #757575;
-    font-size: 0.85rem; }
+    font-size: 1.2rem; }
 
 .the-couple {
   margin-top: 2.5rem; }
   .the-couple h4 {
-    font-family: "Lobster", cursive; }
+    font-family: "Great Vibes", cursive;
+    padding: 1rem;
+    font-size: 2rem;
+    border-top: dotted 2px #ECECEC;
+    border-bottom: dotted 2px #ECECEC; }
   .the-couple i {
     color: #fad956 !important;
     font-size: 0.8rem;
     vertical-align: middle; }
   .the-couple img {
-    margin-top: 1.5rem; }
+    margin-top: 1.5rem;
+    border-radius: 50%;
+    border: solid 10px #ECECEC; }
 
 .footer {
   background: black;
@@ -203,19 +241,31 @@
 .our-story-img {
   margin: 0 0 2.5rem 0; }
 
+.white-txt {
+  color: #ffffff !important; }
+
+.no-border {
+  border: none !important; }
+
+.disqus_fix {
+  padding: 0 1.5rem; }
+
+.row.full-width {
+  max-width: 100%;
+  width: 100%; }
+
 #rsvp {
   background: #3e51a3;
   padding: 2rem;
-  margin-bottom: 2rem; }
+  margin-bottom: 5rem; }
   #rsvp label {
     font-weight: 300;
     color: #ffffff; }
-
-.rb-btn {
-  background: #3e51a3 !important;
-  color: white !important;
-  border-radius: 3px !important;
-  border: solid 1px silver; }
+  #rsvp h6 {
+    color: #ffffff;
+    font-size: 1.4rem; }
+  #rsvp p {
+    color: #FFFFFF; }
 
 .form-fields {
   border-radius: 3px !important;
@@ -223,28 +273,13 @@
   margin-top: 0.5rem !important;
   min-height: 4rem; }
 
-.form-fields-textarea {
-  border-radius: 3px !important;
-  padding: 1rem !important;
-  margin-top: 0.5rem !important;
-  min-height: 5rem; }
-
-.guest-book-entry {
-  background: silver;
-  margin: 3rem 0;
-  padding-top: 1rem;
-  border-radius: 3px; }
-
-.guest-book-user-photo img {
-  width: 50%; }
-
 .dancing-shoes-heading {
   border-top: dotted 2px #7889d2; }
   .dancing-shoes-heading h2 {
-    font-family: "Rochester", cursive;
+    font-family: "Great Vibes", cursive;
     color: #ffffff;
     margin-top: 1rem;
-    font-size: 2rem; }
+    font-size: 1.5rem; }
 
 .mb2 {
   margin-bottom: 2rem; }
@@ -256,7 +291,7 @@
     max-width: none; }
 
 #modalTitle {
-  font-family: "Rochester", cursive;
+  font-family: "Great Vibes", cursive;
   color: #3e51a3;
   font-size: 3rem;
   text-align: center; }
@@ -265,8 +300,7 @@
   max-width: 32.5rem; }
 
 .lead {
-  text-align: center;
-  font-size: 0.8rem !important; }
+  text-align: center; }
 
 .boldy {
   font-weight: bold; }
@@ -309,5 +343,10 @@
     font-size: 2.5rem; }
   .hero-into-text p {
     font-size: 0.9rem; } }
+.the-venue-txt {
+  font-family: "Josefin Sans", sans-serif !important;
+  font-size: 0.35em !important;
+  color: #757575;
+  font-weight: normal !important; }
 
 /*# sourceMappingURL=main.css.map */
