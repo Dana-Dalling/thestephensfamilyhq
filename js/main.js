@@ -1,4 +1,14 @@
-$( document ).ready(function() {
+jQuery( document ).ready(function($) {
+    var msg_content_area = $('#message-area');
+
+    function message_display(msgType, msg) {
+        msg_content_area.removeClass('success');
+        msg_content_area.removeClass('error');
+        msg_content_area.addClass(msgType);
+        $('.message-area--text').html(msg);
+        msg_content_area.slideDown();
+    }
+
     function countdown_timer(timestamp){
         // set and convert the timestamp to milliseconds
         var ts = new Date(timestamp *1000);
@@ -54,29 +64,32 @@ $( document ).ready(function() {
             data: data,
             dataType: 'json'
         }).done(function(response) {
-                //set selectors for multi use
-                var rsvp_code_field = $('#rsvp_code');
-                var rsvp_label = $('#rsvp-response-msg');
-                var rsvp_form = $('#rsvp-form');
-                if(!response.success){
-                    rsvp_code_field.addClass('highlight_field');
-                    rsvp_label.addClass('error');
-                    $('#rsvp-response-msg').html(response.message);
+                message_display(response.type, response.message);
+                var song_suggester_sel = $('#song_suggester_name');
+                var song_title_sel = $('#song_title');
+                var artist_sel = $('#artist');
+                if(response.missing_song_title){
+                    song_title_sel.addClass('input-required');
                 }else{
-                    rsvp_code_field.removeClass('highlight_field');
-                    rsvp_label.removeClass('error');
-                    rsvp_label.html('Please enter your RSVP Code');
-
-                    //hide the rsvp form
-                    rsvp_form.slideUp(500);
-
-                    //show thank you note
-                    $('#thank-you-note').html('<h3>Thank You So Much!</h3>')
-                    //reset the form
-                    rsvp_form[0].reset();
+                    song_title_sel.removeClass('input-required');
                 }
-                //close any modal that was up
-                //$('.close-reveal-modal').trigger('click');
+                if(response.missing_artist){
+                    artist_sel.addClass('input-required');
+                }else{
+                    artist_sel.removeClass('input-required');
+                }
+                if(response.missing_name){
+                    song_suggester_sel.addClass('input-required');
+                }else{
+                    song_suggester_sel.removeClass('input-required');
+                }
+                if(!response.missing_song_title && !response.missing_artist && !response.missing_name){
+                    //close any modal that was up
+                    closeModal();
+                }
+                if(response.type == 'success'){
+                    $('#'+response.clear_form_id)[0].reset();
+                }
             });
     });
 
@@ -84,30 +97,12 @@ $( document ).ready(function() {
        $('#rsvp-form').submit();
     });
 
-    $(function(){
-        $("#site-header").sticky({topSpacing:0});
+
+    function closeModal() {
+        $('.close-reveal-modal').trigger('click');
+    }
+    $(document).on('click', '.message-area--dismiss-action', function () {
+        $('#message-area').slideUp();
     });
-
-    /* * * CONFIGURATION VARIABLES * * */
-    var disqus_shortname = 'thestephenshq';
-
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function () {
-        var s = document.createElement('script'); s.async = true;
-        s.type = 'text/javascript';
-        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
-        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-    }());
-
-    $( "#suggest-song" ).submit(function( event ) {
-        $form_data = $( this ).serialize();
-        $.post("inc/suggest_song.php", { data: $form_data})
-            .done(function( data ) {
-                alert( "Data Loaded: " + data );
-            });
-
-
-        event.preventDefault();
-    });
-
 });
+

@@ -1,16 +1,8 @@
 <?php
 //load site config
 require 'config.php';
-//load mailgun php API
-require '../vendor/mailgun/mailgun-php/src/Mailgun/Mailgun.php';
+require 'settings.php';
 
-use TheStephensHQ\Config;
-use \Mailgun;
-
-
-//instantiate mailgun and the site config
-$stephenshq_config = new TheStephensHQ\Config();
-$mailgun_config = $stephenshq_config->mailgun_config();
 /*
 $mgClient = new Mailgun($mailgun_config['key']);
 $domain = $mailgun_config['domain'];

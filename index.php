@@ -11,6 +11,14 @@
     <script src="js/vendor/modernizr.js"></script>
 </head>
 <body>
+<div id="message-area" class="message-area-state">
+    <div class="row">
+        <div class="message-area--text small-11 columns"></div>
+        <div class="message-area--dismiss small-1 column text-centered">
+            <i class="fa fa-times message-area--dismiss-action"></i>
+        </div>
+    </div>
+</div>
 <div id="site-header">
     <nav>
         <div class="row">
@@ -347,15 +355,15 @@
             <h2 id="modalTitle">Suggest Wedding</br> Party Song</h2>
             <p class="lead">We cant wait to hear what you suggest!</p>
             <div class="small-12 small-centered medium-9 medium-centered large-9 large-centered columns">
-                <form id="suggest-song">
+                <form action="inc/suggested_song.php" id="suggest-song" class="m-async-form" method="POST">
                     <label class="boldy">Your Name
-                        <input type="text" name="name" placeholder="eg. John Brown" />
+                        <input type="text" id="song_suggester_name" name="name" placeholder="eg. John Brown" />
                     </label>
                     <label>Song Title
-                        <input type="text" name="song_title" placeholder="eg. Marry You" />
+                        <input type="text" id="song_title" name="song_title" placeholder="eg. Marry You" />
                     </label>
                     <label>Artist/Band
-                        <input type="text" name="artist" placeholder="eg. Bruno Mars" />
+                        <input type="text" id="artist" name="artist" placeholder="eg. Bruno Mars" />
                     </label>
                     <button class="radius expand rb-btn">
                         Suggest Song
@@ -393,6 +401,18 @@
         });
     }
     google.maps.event.addDomListener(window, 'load', initialize);
+
+
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'thestephenshq';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
 </script>
 </body>
 </html>

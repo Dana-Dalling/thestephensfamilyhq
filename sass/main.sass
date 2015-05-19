@@ -393,3 +393,26 @@ h1, h2, h3, h4, h5, h6
   font-size: 0.35em !important
   color: #757575
   font-weight: normal !important
+
+.input-required
+  border: 1px solid #E4949A !important
+  background-color: #F2E3E4 !important
+
+#message-area
+  padding: 1em
+  display: none
+  position: fixed
+  width: 100%
+  top: 0
+  z-index: 999999999
+  &.success
+    background: #96cb55
+    color: #ffffff
+  &.error
+    background: #a5000c
+    color: #f2f2f2
+  .message-area--text
+    font-size: 1.5em
+    text-align: center
+  .message-area--dismiss-action
+    cursor: pointer

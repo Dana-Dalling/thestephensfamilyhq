@@ -521,3 +521,38 @@ h1, h2, h3, h4, h5, h6 {
   color: #757575;
   font-weight: normal !important;
 }
+
+/* line 397, ../sass/main.sass */
+.input-required {
+  border: 1px solid #E4949A !important;
+  background-color: #F2E3E4 !important;
+}
+
+/* line 401, ../sass/main.sass */
+#message-area {
+  padding: 1em;
+  display: none;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999999999;
+}
+/* line 408, ../sass/main.sass */
+#message-area.success {
+  background: #96cb55;
+  color: #ffffff;
+}
+/* line 411, ../sass/main.sass */
+#message-area.error {
+  background: #a5000c;
+  color: #f2f2f2;
+}
+/* line 414, ../sass/main.sass */
+#message-area .message-area--text {
+  font-size: 1.5em;
+  text-align: center;
+}
+/* line 417, ../sass/main.sass */
+#message-area .message-area--dismiss-action {
+  cursor: pointer;
+}
