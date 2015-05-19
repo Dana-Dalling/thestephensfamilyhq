@@ -38,7 +38,7 @@ if($first_name != '' || $last_name != ''){
 # Make the call to the client.
     $result = $mgClient->sendMessage("$domain",
         array('from'    => 'TheStephensHQ Bot <system@thestephenshq.com>',
-            'to'      => 'f.o.stephens@gmail.com',
+            'to'      => 'dana@thestephenshq.com, fabion@thestephenshq.com',
             'subject' => 'New RSVP confirmation',
             'html'    =>
             '
