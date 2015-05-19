@@ -17,7 +17,7 @@ $artist = $_POST['artist'];
 
 //ensure these fields are not empty
 if($song_title != '' && $artist != '' && $suggested_by != ''){
-    $suggestion = array($_POST['song_title'], $_POST['artist'], $_POST['name']);
+    $suggestion = array($song_title, $artist, $suggested_by);
     $fp = fopen('suggested_songs.csv', 'a');
     fputcsv($fp, $suggestion);
     fclose($fp);
