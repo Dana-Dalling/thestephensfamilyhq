@@ -68,6 +68,8 @@ jQuery( document ).ready(function($) {
                 var song_suggester_sel = $('#song_suggester_name');
                 var song_title_sel = $('#song_title');
                 var artist_sel = $('#artist');
+                var rsvp_first_name_sel = $('#first_name');
+                var rsvp_last_name_sel = $('#last_name');
                 if(response.missing_song_title){
                     song_title_sel.addClass('input-required');
                 }else{
@@ -82,6 +84,16 @@ jQuery( document ).ready(function($) {
                     song_suggester_sel.addClass('input-required');
                 }else{
                     song_suggester_sel.removeClass('input-required');
+                }
+                if(response.missing_first_name){
+                    rsvp_first_name_sel.addClass('input-required');
+                }else{
+                    rsvp_first_name_sel.removeClass('input-required');
+                }
+                if(response.missing_last_name){
+                    rsvp_last_name_sel.addClass('input-required');
+                }else{
+                    rsvp_last_name_sel.removeClass('input-required');
                 }
                 if(!response.missing_song_title && !response.missing_artist && !response.missing_name){
                     //close any modal that was up

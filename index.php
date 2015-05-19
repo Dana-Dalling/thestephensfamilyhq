@@ -226,11 +226,11 @@
                 <form id="rsvp-form" action="inc/validate_send_rsvp.php" method="POST" class="m-async-form">
                     <label>
                         <span id="rsvp-response-msg">First name</span>
-                        <input type="text" id="rsvp_code" name="rsvp_code" placeholder="John" class="form-fields" />
+                        <input type="text" id="first_name" name="first_name" placeholder="MaryJohn" class="form-fields" />
                     </label>
                     <label>
                         <span id="rsvp-response-msg">Last name</span>
-                        <input type="text" id="rsvp_code" name="rsvp_code" placeholder="Doe" class="form-fields" />
+                        <input type="text" id="last_name" name="last_name" placeholder="Doe" class="form-fields" />
                     </label>
                     <label>
                         <span>Which events will you be attending</span>
