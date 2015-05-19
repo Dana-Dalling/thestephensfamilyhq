@@ -1,7 +1,6 @@
 <?php
 //load site config
 require 'config.php';
-require 'settings.php';
 require '../vendor/autoload.php';
 use Mailgun\Mailgun;
 
