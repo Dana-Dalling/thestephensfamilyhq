@@ -118,7 +118,7 @@
                     We lost touch for a while but reconnected and picked up where we left off.
                 </p>
                 <p>
-                    Although it took us 1yr to official meet face to face,
+                    Although it took us 1yr to officially meet face to face,
                     I knew I loved him before we met.
                     Fabion became and still is my best friend in the world.
                 </p>
@@ -162,8 +162,8 @@
                     like love at first text :)
                 </p>
                 <p>
-                  Ten (10) years has passed faster than saying 'I love you' since our path crossed and that path is taking us
-                  down the isle in a few weeks to seal our bond.
+                  Ten (10) years has passed faster than saying 'I love you' since our paths crossed and that path is taking us
+                  down the aisle in a few weeks to seal our bond.
                 </p>
                 <p>
                     Forever I pray, I will continue to love, cherish and grow old together with my best friend, love and
